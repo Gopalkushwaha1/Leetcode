@@ -6,13 +6,11 @@ class Solution {
         int count = 0 ; 
         int sum = 0 ; 
         for ( end = 0 ; end < k ; end++ ) {
-            System.out.print(6);
             sum += arr[end] ; 
         }
 
         while ( end < arr.length ) {  
             if ( (sum/k) >= threshold) {
-                System.out.print(7);
                 count++;
             }
             
