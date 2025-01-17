@@ -25,6 +25,8 @@ class Solution {
             start++ ; 
             max = Math.max( max , localmaxCustomersSatisfied) ; 
         }
+
+        // return total satisfied customer 0 & 1 
         return maxCustomerSatisfied + max ; 
     }
 }
