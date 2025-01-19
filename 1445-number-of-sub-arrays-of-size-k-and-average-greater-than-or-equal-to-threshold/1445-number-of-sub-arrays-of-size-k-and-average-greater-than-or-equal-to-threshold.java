@@ -8,19 +8,19 @@ class Solution {
         for ( end = 0 ; end < k ; end++ ) {
             sum += arr[end] ; 
         } 
+        if ( sum >= k * threshold ) {
+                count++ ; 
+            }   
 
         // Moving Sliding window 
         while ( end < arr.length ) {
-            if ( sum / k >= threshold ) {
+            sum += arr[end] ;
+            sum -= arr[start] ;
+            if ( sum >= k * threshold ) {
                 count++ ; 
             }
-            sum += arr[end] ;
             end++ ;  
-            sum -= arr[start] ;
             start++ ; 
-        }
-        if(sum / k >= threshold ) {
-            count++ ; 
         }
         return count ; 
     }
