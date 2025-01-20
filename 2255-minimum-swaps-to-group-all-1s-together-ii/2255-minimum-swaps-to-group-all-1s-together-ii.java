@@ -1,35 +1,17 @@
 class Solution {
     public int minSwaps(int[] nums) {
-       int countOne = 0 ;        // Total count of one for making window  
-       int countZero = 0 ;       // count number of zero in window (for update minimum swap)
-       int start = 0 ; 
-       int end = 0 ; 
-       int minSwap = 0 ; 
-
-       // counting one 
-       for ( int ele : nums ) {
-        if ( ele == 1) countOne++ ; 
-       }
-       end = countOne ; 
+        int countOne = 0 , countZero = 0 , minSwap = Integer.MAX_VALUE ; 
         
-       // count zero in window 
-       for ( int i = 0 ; i < end ; i++ ) {
-        if(nums[i] == 0 ) countZero++ ; 
-       }
-       minSwap = countZero ; 
-       
-       // Applying sliding window 
-       for ( start = 0 ; start < nums.length ; start++ ) {
-        if(nums[(end)%nums.length] == 0 ){
-             countZero++;
-        }
-        if ( nums[start] == 0 ) {
-            countZero--;
-        }
-        minSwap = Math.min(minSwap , countZero);
-        end++;
+        for ( int ele : nums ) if ( ele == 1 ) countOne++ ; // counting total occurence of 1 
+        for ( int i = 0 ; i < countOne ; i++ ) if ( nums[i] == 0 ) countZero++ ; // count 0 in window
 
-       }
-       return minSwap ; 
+        minSwap = countZero ; 
+        // Sliding window to count minSwap
+        for ( int start = 0 , end = countOne ; start < nums.length ; start++ , end++ ) {
+            if ( nums[(end) % nums.length] == 0 ) countZero++ ;  // increase window
+            if ( nums[start] == 0 ) countZero--;                 // slink window
+            minSwap = Math.min(minSwap , countZero ) ;           // calculate min swap
+        }
+        return minSwap ; // return min swap
     }
 }
