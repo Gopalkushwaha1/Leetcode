@@ -12,12 +12,9 @@ class Solution {
             count++ ; 
         }
         while ( end < arr.length ) {
-            sum += arr[end] ;
-            sum -= arr[start] ;
-
+            sum += arr[end] - arr[start] ;
             if ( sum >= t * k) count++ ;
-            end++;
-            start++;
+            end++; start++;
         }
         return count ; 
     }
