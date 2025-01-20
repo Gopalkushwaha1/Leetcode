@@ -1,6 +1,6 @@
 class Solution {
     public int minSwaps(int[] nums) {
-        int countOne = 0 , countZero = 0 , minSwap = Integer.MAX_VALUE ; 
+        int countOne = 0 , countZero = 0 , minSwap ; 
         
         for ( int ele : nums ) if ( ele == 1 ) countOne++ ; // counting total occurence of 1 
         for ( int i = 0 ; i < countOne ; i++ ) if ( nums[i] == 0 ) countZero++ ; // count 0 in window
