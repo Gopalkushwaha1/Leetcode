@@ -1,8 +1,8 @@
 class Solution {
     public int longestOnes(int[] nums, int k) {
         int start = 0 , end = 0 , maxLen = 0 , zeroCount = 0 ;  // define prerequisite varibale 
-        for ( int ele : nums ) if ( ele == 0 ) zeroCount++ ;   // count total zero 
-        if ( zeroCount <=  k ) return nums.length ;            // if k is more than count 0 return len 
+        // for ( int ele : nums ) if ( ele == 0 ) zeroCount++ ;   // count total zero 
+        // if ( zeroCount <=  k ) return nums.length ;            // if k is more than count 0 return len 
         while ( end < nums.length ) {                   // making sliding window 
             
             if ( nums[end] == 0 ) k-- ;          // checking if ele is 0 reduce the window 
