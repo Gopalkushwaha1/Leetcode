@@ -8,9 +8,8 @@ class Solution {
         for ( end = 0 ; end < k ; end++ ) {
             sum += arr[end] ; 
         }
-        if ( sum >= t * k ) {
-            count++ ; 
-        }
+        if ( sum >= t * k ) count++ ; // if first window satisfy the condition update count 
+        // Applaying sliding window 
         while ( end < arr.length ) {
             sum += arr[end] - arr[start] ;
             if ( sum >= t * k) count++ ;
