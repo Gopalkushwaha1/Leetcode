@@ -9,9 +9,13 @@ class Solution {
         for ( int i = 0 ; i < nums.length ; i++ ) {
             if(i % k  == 0 ) {
                 max = Integer.MIN_VALUE ; 
+                leftSum[i] = nums[i] ; 
             }
-            max = Math.max(max , nums[i]);
-            leftSum[i] = max ; 
+            else {
+                max = Math.max(max , nums[i]);
+                leftSum[i] = max ; 
+                leftSum[i] = Math.max(leftSum[i-1] , nums[i]);
+            }
         }
        // filling RightSum
        for ( int i = nums.length - 1 ; i >= 0 ; i-- ) {
