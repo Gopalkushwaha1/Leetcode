@@ -5,29 +5,18 @@ class Solution {
         while ( end < 2 *  colors.length) {
             if(colors[end%colors.length] != colors[(end - 1) % colors.length ] ) {
                 if(end - start + 1 >=  k ) {
-                    count++; 
+                    if(end < colors.length) {  
+                        count++;
+                    }
+                    result++;
                 }
             }
             else {
                 start = end ; 
             }
             end++ ;
-        } 
-        start = 0 ;
-        end = 1 ; 
-
-        while ( end < colors.length) {
-            if(colors[end] != colors[end - 1 ] ) {
-                if(end - start + 1 >=  k ) {
-                    result++; 
-                }
-            }
-            else {
-                start = end ; 
-            }
-            end++ ;
-        } 
-        return count - result ;  
+        }  
+        return result - count ;  
 
     }
 }
