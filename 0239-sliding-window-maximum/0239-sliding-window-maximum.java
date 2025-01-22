@@ -3,17 +3,13 @@ class Solution {
         int[] leftSum = new int[nums.length] ; 
         int[] rightSum = new int[nums.length] ; 
         int[] result = new int[nums.length - k + 1 ] ; 
-        int max = Integer.MIN_VALUE ; 
 
         // filling leftSum 
         for ( int i = 0 ; i < nums.length ; i++ ) {
             if(i % k  == 0 ) {
-                max = Integer.MIN_VALUE ; 
                 leftSum[i] = nums[i] ; 
             }
             else {
-                max = Math.max(max , nums[i]);
-                leftSum[i] = max ; 
                 leftSum[i] = Math.max(leftSum[i-1] , nums[i]);
             }
         }
