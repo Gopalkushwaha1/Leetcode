@@ -4,12 +4,12 @@ class Solution {
 
         while ( start < end ) {
 
-            if ( height[start] < height[end]) {
+            if ( height[start] < height[end]) {  // if leftmost min find area from left
                 maxArea = Math.max(maxArea , height[start] * (end - start));
                 start++ ; 
             }
 
-            else {
+            else {                   // if leftmost min find area from left
                 maxArea = Math.max(maxArea , height[end] * (end - start));
                 end-- ;
             }
