@@ -3,30 +3,30 @@ class Solution {
         while ( start < end ) {
             int temp = nums[start] ;
             nums[start] = nums[end] ;
-            nums[end]  = temp ; 
-            start++ ; end-- ; 
+            nums[end] = temp ;
+            start++ ; end-- ;
         }
     }
-
     public void nextPermutation(int[] nums) {
-        int i = nums.length - 2  ; 
+        int j = nums.length - 2 ; 
 
-        while (i >= 0 &&  nums[i] >= nums[i+1]) i-- ; 
+        while ( j >= 0 && nums[j] >= nums[j+1]) j-- ; 
 
-        if ( i == -1 ) {
-            reverse(nums , 0 , nums.length - 1 ) ;
-            return ;  
+        if ( j == -1 ) {
+            reverse( nums , 0 , nums.length - 1 ) ; 
+            return ; 
         }
 
-        int j = i ; 
-        while ( j < nums.length - 1  && nums[j+1] > nums[i]) j++ ; 
+        int i = j ; 
 
-        // j = j - 1 ;
+        while ( i < nums.length -1 && nums[i+1] > nums[j] ) i++ ; 
 
-        int temp = nums[i] ; 
+         
+
+        int temp = nums[i] ;
         nums[i] = nums[j] ;
         nums[j] = temp ; 
 
-        reverse(nums , i + 1 , nums.length - 1 );
+        reverse( nums , j + 1 , nums.length - 1 );
     }
 }
