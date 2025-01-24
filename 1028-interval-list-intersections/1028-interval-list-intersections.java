@@ -1,23 +1,23 @@
 class Solution {
     public int[][] intervalIntersection(int[][] firstList, int[][] secondList) {
+        
+        int i = 0 , j = 0 ; 
+        List<int[]> answer = new ArrayList<>();
 
-        int i = 0 , j = 0 ;   // define variable 
+        while ( i < firstList.length && j < secondList.length ) {
 
-        List<int[]> answer = new ArrayList<>() ; // to store ans 
+            int start = Math.max( firstList[i][0] , secondList[j][0]) ; 
+            int end = Math.min( firstList[i][1] , secondList[j][1]) ;
 
-        while ( i < firstList.length &&  j < secondList.length ) {
-            
-            int start = Math.max ( firstList[i][0] , secondList[j][0]) ; // take max 
-            int end  = Math.min ( firstList[i][1] , secondList[j][1]) ;  // take min
+            if ( start <= end ) {
+                answer.add( new int[]{ start , end });
+            }
 
-            if ( start <= end )  answer.add(new int[] {start , end }) ;   // update ans  
+            if ( firstList[i][1] < secondList[j][1] ) i++ ; 
 
-            if ( firstList[i][1] < secondList[j][1]) i++ ;         // update i 
-
-            else j++  ; // update j 
-
+            else j++ ; 
         }
 
-        return answer.toArray(new int[answer.size()][]) ;  // return ans 
+        return answer.toArray(new int[answer.size()][]);
     }
 }
