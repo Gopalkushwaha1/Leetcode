@@ -1,9 +1,13 @@
 class Solution {
+
+    //Swap function 
     public void swap ( int[] nums  , int start , int end ) {
         int temp = nums[start] ; 
         nums[start] = nums[end] ; 
         nums[end] = temp ; 
     }
+
+    // reverse function 
     public void reverse( int[] nums , int start , int end ) {
 
         while ( start < end ) {
