@@ -1,18 +1,21 @@
 class Solution {
     public void moveZeroes(int[] nums) {
-        int[] arr = new int[nums.length] ; 
-        int j = 0 ; 
+      if ( nums.length <= 1 ) return ; 
 
-        for (int i = 0 ; i < nums.length ; i++ ) {
-            
-            if(nums[i] != 0 ) arr[j++] = nums[i] ;
+      int i = 0 , j = 0 ; 
 
+      while ( j < nums.length ) {
+        if ( i == j && nums[i] != 0  && nums[j] != 0 ) {
+            i++ ; j++ ; 
         }
-
-        for ( int i = 0 ; i < nums.length ; i++ ) {
-
-            nums[i] = arr[i] ; 
-
+        else if ( nums[j] == 0 ) {
+            j++ ; 
         }
+        else {
+            nums[i] = nums[j] ; 
+            nums[j] = 0 ; 
+            i++ ; j++ ; 
+        }
+      }  
     }
 }
