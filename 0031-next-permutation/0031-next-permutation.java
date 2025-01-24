@@ -19,7 +19,6 @@ class Solution {
         }
 
         int j = i ; 
-        System.out.print(j) ; 
         while ( j < nums.length - 1  && nums[j+1] > nums[i]) j++ ; 
 
         // j = j - 1 ;
