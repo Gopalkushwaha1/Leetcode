@@ -1,6 +1,6 @@
 class Solution {
     public void reverse( char[] ch , int start , int end ) {
-        end--;
+        end-- ; 
         while ( start < end ) {
             char c = ch[start] ;
             ch[start] = ch[end] ;
