@@ -5,7 +5,7 @@ class Solution {
        while ( i < v1.length() || j < v2.length() ) {
 
         int num1 = 0 , nums2 = 0 ; 
-        System.out.println("num1 " + num1) ;
+
         while ( i < v1.length() && v1.charAt(i) != '.') { 
             num1 = num1 * 10 + (v1.charAt(i) - '0' ) ; 
             i++ ; 
