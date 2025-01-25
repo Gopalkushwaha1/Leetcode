@@ -1,28 +1,27 @@
 class Solution {
+    public void reverse( char[] ch , int start  , int end ) {
+        while ( start < end ) {
+            char c = ch[start] ;
+            ch[start] = ch[end-1] ; 
+            ch[end-1] = c ; 
+            start++ ; end-- ; 
+        }
+    }
     public String reverseWords(String s) {
-        // define prerequistie varible 
-        int i = 0 ; 
-        Stack<Character> st = new Stack<>() ; 
-        String ans = "" ; 
+        char[] ch = s.toCharArray() ; 
+        int i = 0 , j = 0 ; 
 
         while ( i < s.length() ) {
-            // push char in stack until space not came 
-            while (i < s.length() &&  s.charAt(i) != ' ' ) {
-                st.push(s.charAt(i));
+            
+            while ( i < s.length() && s.charAt(i) != ' ' ) {
                 i++ ; 
             }
-            // poll from stack add in answer 
-            while ( st.size() != 0 ) {
-                char c = st.pop() ; 
-                ans += c ;
-            }
-            // check string s have more word then add space 
-            if ( i != s.length()) {
-                ans += ' ' ; 
-            }
-            i++ ; 
+
+            reverse ( ch , j , i ) ; 
+            i++ ;
+            j = i ; 
+
         }
-        
-        return ans ; // return ans 
+        return new String(ch) ; 
     }
 }
