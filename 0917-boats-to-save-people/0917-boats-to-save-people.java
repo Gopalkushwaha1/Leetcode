@@ -10,7 +10,7 @@ class Solution {
             }
             else {
                  count++ ;
-            j-- ; 
+                 j-- ; 
             }
         }
         return count ; 
