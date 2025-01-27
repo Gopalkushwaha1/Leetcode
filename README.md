@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0283-move-zeroes) |
 | [0917-boats-to-save-people](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0917-boats-to-save-people) |
 | [0979-di-string-match](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0979-di-string-match) |
+| [0982-minimum-increment-to-make-array-unique](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0982-minimum-increment-to-make-array-unique) |
 | [0985-bag-of-tokens](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0985-bag-of-tokens) |
 | [1028-interval-list-intersections](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1028-interval-list-intersections) |
 | [1046-max-consecutive-ones-iii](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
@@ -64,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0917-boats-to-save-people](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0917-boats-to-save-people) |
+| [0982-minimum-increment-to-make-array-unique](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0982-minimum-increment-to-make-array-unique) |
 | [0985-bag-of-tokens](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0985-bag-of-tokens) |
 | [1675-magnetic-force-between-two-balls](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1675-magnetic-force-between-two-balls) |
 ## Hash Table
@@ -130,6 +132,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0011-container-with-most-water) |
 | [0917-boats-to-save-people](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0917-boats-to-save-people) |
 | [0979-di-string-match](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0979-di-string-match) |
+| [0982-minimum-increment-to-make-array-unique](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0982-minimum-increment-to-make-array-unique) |
 | [0985-bag-of-tokens](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0985-bag-of-tokens) |
 ## Dynamic Programming
 |  |
@@ -152,4 +155,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0048-rotate-image) |
+## Counting
+|  |
+| ------- |
+| [0982-minimum-increment-to-make-array-unique](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0982-minimum-increment-to-make-array-unique) |
 <!---LeetCode Topics End-->
