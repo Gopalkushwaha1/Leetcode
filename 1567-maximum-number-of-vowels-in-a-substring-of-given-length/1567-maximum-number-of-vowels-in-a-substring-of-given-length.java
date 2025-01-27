@@ -1,30 +1,46 @@
 class Solution {
-    public boolean isVowel( char c ) {
-        if ( c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u') return true ;
-        else return false ; 
+    // Helper function to check if a character is a vowel
+    public boolean isVowel(char c) {
+        // Check if the character is one of the vowels (lowercase)
+        return c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u';
     }
+
     public int maxVowels(String s, int k) {
-        int start = 0 , end = 0 , count = 0 , maxCount = 0 ;
+        // Initialize the sliding window pointers and counters
+        int start = 0, end = 0, count = 0, maxCount = 0;
 
-        while ( end < k ) {
+        // Process the first `k` characters in the string
+        while (end < k) {
+            // Increment count if the current character is a vowel
             if (isVowel(s.charAt(end))) {
-                count++ ; 
+                count++;
             }
-            end++ ; 
+            end++;
         }
-        maxCount = Math.max( count , maxCount) ;
 
-        while ( end < s.length() ) {
+        // Update the maximum count of vowels for the first window
+        maxCount = Math.max(count, maxCount);
 
-            if ( isVowel(s.charAt(end) )) {
-                count++ ; 
+        // Slide the window through the rest of the string
+        while (end < s.length()) {
+            // Add the next character to the window
+            if (isVowel(s.charAt(end))) {
+                count++;
             }
-            if ( isVowel(s.charAt(start))) {
-                count-- ; 
+            // Remove the first character of the previous window
+            if (isVowel(s.charAt(start))) {
+                count--;
             }
-            maxCount = Math.max( count , maxCount) ; 
-            end++ ; start++ ; 
+
+            // Update the maximum count of vowels for the current window
+            maxCount = Math.max(count, maxCount);
+
+            // Slide the window: move both `start` and `end` pointers
+            end++;
+            start++;
         }
-        return maxCount ; 
+
+        // Return the maximum count of vowels found in any window of size `k`
+        return maxCount;
     }
 }
