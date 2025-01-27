@@ -1,17 +1,21 @@
 class Solution {
     public int countBinarySubstrings(String s) {
-    char[] chars = s.toCharArray();
-    int prev = 0, curr = 1, count = 0;
-    for (int i = 1; i < chars.length; i++) {
-        if (chars[i] == chars[i - 1]) {
-            curr++;
-        } else {
-            count += Math.min(prev, curr);
-            prev = curr;
-            curr = 1;
-        }
-    }
-    return count + Math.min(prev, curr);
-}
+        int prevCount = 0;
+        int count = 0;
+        char prevChar = s.charAt(0);
+        int sum = 0;
 
+        for (char c : s.toCharArray()) {
+            if (c == prevChar) {
+                count++;
+            } else {
+                prevChar = c;
+                sum += Math.min(count, prevCount);
+                prevCount = count;
+                count = 1;
+            }
+        }
+
+        return sum + Math.min(count, prevCount);
+    }
 }
