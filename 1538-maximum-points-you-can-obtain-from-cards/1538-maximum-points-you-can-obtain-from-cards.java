@@ -1,27 +1,23 @@
 class Solution {
     public int maxScore(int[] cardPoints, int k) {
-        int n = cardPoints.length ; 
-        int start = 0 ; 
-        int end = 0 ; 
-        int maxCardValue = 0 ;   // Variable to track max Card value for k card 
-        
-        // Making Window of length k
-        for ( end = 0 ; end< k ; end++) {
-            maxCardValue += cardPoints[end] ; 
+        int start = cardPoints.length - 1  , end = 0 , sum = 0 , maxSum = 0 ;
+
+        while ( end < k ) {
+            sum += cardPoints[end++] ; 
         }
-        int localMax = maxCardValue ;    // Variable to track local max Card value for k card 
 
-
-        int last = cardPoints.length - 1 ;  // to track from last 
+        if ( end == cardPoints.length ) return sum ; 
+        maxSum = sum ; 
         end--;
-        // Apply silding window to travel each window
         while ( end >= 0 ) {
-            localMax += cardPoints[last];
-            localMax -= cardPoints[end] ; 
-            maxCardValue = Math.max ( maxCardValue , localMax ) ; // if max found update max 
-            end--;
-            last--;
+            
+            sum -= cardPoints[end] ;
+            sum += cardPoints[start] ; 
+
+            maxSum = Math.max( sum , maxSum ) ;
+            end-- ; start-- ; 
         }
-        return maxCardValue ; // return maximum card value
+
+        return maxSum ; 
     }
 }
