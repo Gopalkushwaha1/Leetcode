@@ -18,7 +18,7 @@ class Solution {
         long sum = 0 ; 
 
         for ( int i = prefixSum.length - 1 ; i > 0 ; i-- ) {
-            sum  = (sum + ((long)nums[i-1] * (long)prefixSum[i] ) % 1000000007 )% 1000000007; 
+            sum  +=  (long)nums[i-1] * prefixSum[i]  ; 
         }
 
         return (int)(sum % 1000000007 ) ; 
