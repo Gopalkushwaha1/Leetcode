@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1575-maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1575-maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts) |
 | [1675-magnetic-force-between-two-balls](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1675-magnetic-force-between-two-balls) |
+| [1695-maximum-sum-obtained-of-any-permutation](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1695-maximum-sum-obtained-of-any-permutation) |
 | [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 | [1813-maximum-erasure-value](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1813-maximum-erasure-value) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
@@ -72,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1321-get-equal-substrings-within-budget](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1321-get-equal-substrings-within-budget) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
+| [1695-maximum-sum-obtained-of-any-permutation](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1695-maximum-sum-obtained-of-any-permutation) |
 | [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 ## Sorting
 |  |
@@ -82,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0985-bag-of-tokens](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0985-bag-of-tokens) |
 | [1575-maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1575-maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts) |
 | [1675-magnetic-force-between-two-balls](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1675-magnetic-force-between-two-balls) |
+| [1695-maximum-sum-obtained-of-any-permutation](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1695-maximum-sum-obtained-of-any-permutation) |
 ## Hash Table
 |  |
 | ------- |
@@ -153,6 +156,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0982-minimum-increment-to-make-array-unique](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0982-minimum-increment-to-make-array-unique) |
 | [0985-bag-of-tokens](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0985-bag-of-tokens) |
 | [1575-maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1575-maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts) |
+| [1695-maximum-sum-obtained-of-any-permutation](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1695-maximum-sum-obtained-of-any-permutation) |
 ## Dynamic Programming
 |  |
 | ------- |
