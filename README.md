@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
+| [1321-get-equal-substrings-within-budget](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1321-get-equal-substrings-within-budget) |
 | [1675-magnetic-force-between-two-balls](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1675-magnetic-force-between-two-balls) |
 | [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 ## Sliding Window
@@ -46,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0239-sliding-window-maximum](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0239-sliding-window-maximum) |
 | [1046-max-consecutive-ones-iii](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1138-grumpy-bookstore-owner](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1138-grumpy-bookstore-owner) |
+| [1321-get-equal-substrings-within-budget](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1321-get-equal-substrings-within-budget) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
@@ -61,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
+| [1321-get-equal-substrings-within-budget](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1321-get-equal-substrings-within-budget) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
@@ -89,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0696-count-binary-substrings](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0696-count-binary-substrings) |
 | [0953-reverse-only-letters](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0953-reverse-only-letters) |
 | [0979-di-string-match](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0979-di-string-match) |
+| [1321-get-equal-substrings-within-budget](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1321-get-equal-substrings-within-budget) |
 | [1454-remove-palindromic-subsequences](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1454-remove-palindromic-subsequences) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
