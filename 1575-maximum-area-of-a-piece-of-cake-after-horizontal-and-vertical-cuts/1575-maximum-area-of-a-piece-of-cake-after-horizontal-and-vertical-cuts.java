@@ -20,8 +20,7 @@ class Solution {
         maxVer = Math.max(maxVer, w - ver[ver.length - 1]);
         maxHor = Math.max(maxHor, h - hor[hor.length - 1]);
 
-        System.out.println(maxHor);
-        System.out.println(maxVer);
+        
 
         // Correct modulo calculation
         return (int) ((1L * maxVer * maxHor) % 1000000007);
