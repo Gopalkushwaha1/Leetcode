@@ -5,13 +5,9 @@ class Solution {
         for  ( int i = 1 ; i < n ; i++ ) {
 
             if ( colors[i%colors.length] != colors[(i-1)%colors.length]) {
-                if(i - j + 1 >= k ) {
-                    count++ ; 
-                }
+                if(i - j + 1 >= k ) count++ ;    
             }
-            else {
-                j = i ; 
-            }
+            else j = i ; 
         }
 
         return count ; 
