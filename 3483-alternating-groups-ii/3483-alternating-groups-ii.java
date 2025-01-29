@@ -1,21 +1,19 @@
 class Solution {
     public int numberOfAlternatingGroups(int[] colors, int k) {
-        int start = 0 , end  = 1 , oneCycleCount = 0 , twoCycleCount = 0 , n = colors.length; 
+        int n = colors.length + k - 1 , j = 0 , count = 0  ; 
 
-        while ( end < 2* n ) {
-            if(colors[end % n ] != colors[(end - 1 ) % n ]){
-                if(end - start + 1 >= k ) {
-                    if(end < n ) {
-                        oneCycleCount++ ; 
-                    }
-                    twoCycleCount++ ; 
+        for  ( int i = 1 ; i < n ; i++ ) {
+
+            if ( colors[i%colors.length] != colors[(i-1)%colors.length]) {
+                if(i - j + 1 >= k ) {
+                    count++ ; 
                 }
             }
             else {
-                start = end ; 
+                j = i ; 
             }
-            end++ ; 
         }
-        return twoCycleCount - oneCycleCount ; 
+
+        return count ; 
     }
 }
