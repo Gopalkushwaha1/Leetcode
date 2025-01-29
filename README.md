@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0239-sliding-window-maximum](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0239-sliding-window-maximum) |
 | [0274-h-index](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0274-h-index) |
+| [0275-h-index-ii](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0275-h-index-ii) |
 | [0283-move-zeroes](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0283-move-zeroes) |
 | [0713-subarray-product-less-than-k](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0713-subarray-product-less-than-k) |
 | [0917-boats-to-save-people](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0917-boats-to-save-people) |
@@ -41,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
+| [0275-h-index-ii](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0275-h-index-ii) |
 | [0713-subarray-product-less-than-k](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0713-subarray-product-less-than-k) |
 | [1046-max-consecutive-ones-iii](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1321-get-equal-substrings-within-budget](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1321-get-equal-substrings-within-budget) |
