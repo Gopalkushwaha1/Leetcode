@@ -11,7 +11,7 @@ class Solution {
             }
              
         }
-        System.out.print(nums.length - start + " " ); 
+        // System.out.print(nums.length - start + " " ); 
         return nums.length - start ; 
     }
     public int countNegatives(int[][] grid) {
