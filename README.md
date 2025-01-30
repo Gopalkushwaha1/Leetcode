@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0275-h-index-ii](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0275-h-index-ii) |
 | [0283-move-zeroes](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0283-move-zeroes) |
 | [0713-subarray-product-less-than-k](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0713-subarray-product-less-than-k) |
+| [0792-binary-search](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0792-binary-search) |
 | [0917-boats-to-save-people](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0917-boats-to-save-people) |
 | [0946-smallest-range-ii](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0946-smallest-range-ii) |
 | [0979-di-string-match](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0979-di-string-match) |
@@ -44,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0275-h-index-ii](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0275-h-index-ii) |
 | [0713-subarray-product-less-than-k](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0713-subarray-product-less-than-k) |
+| [0792-binary-search](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0792-binary-search) |
 | [1046-max-consecutive-ones-iii](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1321-get-equal-substrings-within-budget](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1321-get-equal-substrings-within-budget) |
 | [1675-magnetic-force-between-two-balls](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1675-magnetic-force-between-two-balls) |
