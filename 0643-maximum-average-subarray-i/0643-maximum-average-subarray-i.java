@@ -18,13 +18,13 @@ class Solution {
    }
 
     public double findMaxAverage(int[] arr, int k) {
-        if ( k == 1 ) {
-           int max = Integer.MIN_VALUE;
-           for ( int ele : arr) {
-               max = Math.max(max , ele);
-           }
-           return max;
-       }
+    //     if ( k == 1 ) {
+    //        int max = Integer.MIN_VALUE;
+    //        for ( int ele : arr) {
+    //            max = Math.max(max , ele);
+    //        }
+    //        return max;
+    //    }
        return maxAvarge(arr , k ) ;
     }
 }
