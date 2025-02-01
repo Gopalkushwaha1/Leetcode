@@ -6,18 +6,18 @@ class Solution {
         // Travel each ele in array and check 
         while ( idx < nums.length ) {
             if ( count > k ) return false ; 
-            int num = nums[idx] ;
+            
             // If ele is greater then mid not possbile 
-            if ( num > mid ) return false ;  
+            if ( nums[idx] > mid ) return false ;  
             // Check if possible 
-            else if ( num + sum <= mid ) {
-                sum += num ; 
+            else if ( nums[idx] + sum <= mid ) {
+                sum += nums[idx] ; 
                 idx++ ; 
             }
             // If sum greater than mid split update 
             else {
                 count++;
-                sum = num ; 
+                sum = nums[idx] ; 
                 idx++ ; 
             }   
         }
