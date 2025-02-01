@@ -1,11 +1,12 @@
 class Solution {
     // Function to check this mid value possible or not 
     public boolean isValid( int[] nums , int k , int mid ) {
-        int count = 1 , idx = 0 , sum = 0 ; 
+        k--;
+        int idx = 0 , sum = 0 ; 
 
         // Travel each ele in array and check 
         while ( idx < nums.length ) {
-            if ( count > k ) return false ; 
+            if ( k < 0  ) return false ; 
             
             // If ele is greater then mid not possbile 
             if ( nums[idx] > mid ) return false ;  
@@ -16,12 +17,12 @@ class Solution {
             }
             // If sum greater than mid split update 
             else {
-                count++;
+                k--;
                 sum = nums[idx] ; 
                 idx++ ; 
             }   
         }
-        return count <= k ;
+        return k >= 0  ;
     }
     public int splitArray(int[] nums, int k) {
         int min = 0 ; 
