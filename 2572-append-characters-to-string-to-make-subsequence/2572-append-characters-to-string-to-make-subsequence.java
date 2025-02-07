@@ -6,14 +6,10 @@ class Solution {
 
          while ( j < tlen && i < slen ) {
              if ( s.charAt(i) == t.charAt(j)){
-                System.out.print(j + " ");
-                 System.out.print(j + " ");
                 j++; 
              }
              i++ ; 
          } 
-         
-         System.out.print(j);
          return tlen - j ; 
     }
 }
