@@ -1,13 +1,11 @@
 class Solution {
     // Function to return reverse of element 
-    public int reverse( int ele ) {
-        int a = ele ; 
+    public int reverse( int ele ) { 
         int res = 0 ; 
         while ( ele != 0 ) {
             res = res * 10 + ele%10 ; 
             ele = ele/10 ; 
         }
-        System.out.println( a + "-> " + res );
         return res ; 
     }
     public int countDistinctIntegers(int[] nums) {
