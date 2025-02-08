@@ -48,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1927-maximum-ascending-subarray-sum](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1927-maximum-ascending-subarray-sum) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
+| [2525-count-number-of-distinct-integers-after-reverse-operations](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2525-count-number-of-distinct-integers-after-reverse-operations) |
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/Gopalkushwaha1/Leetcode/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3429-special-array-i](https://github.com/Gopalkushwaha1/Leetcode/tree/master/3429-special-array-i) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/Gopalkushwaha1/Leetcode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
@@ -132,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1813-maximum-erasure-value](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1813-maximum-erasure-value) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2434-design-a-number-container-system](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2434-design-a-number-container-system) |
+| [2525-count-number-of-distinct-integers-after-reverse-operations](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2525-count-number-of-distinct-integers-after-reverse-operations) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/Gopalkushwaha1/Leetcode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 ## String
 |  |
@@ -160,6 +162,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0189-rotate-array) |
 | [0946-smallest-range-ii](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0946-smallest-range-ii) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
+| [2525-count-number-of-distinct-integers-after-reverse-operations](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2525-count-number-of-distinct-integers-after-reverse-operations) |
 ## Queue
 |  |
 | ------- |
@@ -238,6 +241,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0982-minimum-increment-to-make-array-unique](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0982-minimum-increment-to-make-array-unique) |
 | [1364-tuple-with-same-product](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1364-tuple-with-same-product) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
+| [2525-count-number-of-distinct-integers-after-reverse-operations](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2525-count-number-of-distinct-integers-after-reverse-operations) |
 ## Counting Sort
 |  |
 | ------- |
