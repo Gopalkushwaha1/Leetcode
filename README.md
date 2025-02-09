@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1927-maximum-ascending-subarray-sum](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1927-maximum-ascending-subarray-sum) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2525-count-number-of-distinct-integers-after-reverse-operations](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2525-count-number-of-distinct-integers-after-reverse-operations) |
+| [2847-find-maximum-number-of-string-pairs](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2847-find-maximum-number-of-string-pairs) |
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/Gopalkushwaha1/Leetcode/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3429-special-array-i](https://github.com/Gopalkushwaha1/Leetcode/tree/master/3429-special-array-i) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/Gopalkushwaha1/Leetcode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
@@ -134,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2434-design-a-number-container-system](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2434-design-a-number-container-system) |
 | [2525-count-number-of-distinct-integers-after-reverse-operations](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2525-count-number-of-distinct-integers-after-reverse-operations) |
+| [2847-find-maximum-number-of-string-pairs](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2847-find-maximum-number-of-string-pairs) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/Gopalkushwaha1/Leetcode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 ## String
 |  |
@@ -155,6 +157,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2128-reverse-prefix-of-word](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2128-reverse-prefix-of-word) |
 | [2243-check-if-all-as-appears-before-all-bs](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2243-check-if-all-as-appears-before-all-bs) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2572-append-characters-to-string-to-make-subsequence) |
+| [2847-find-maximum-number-of-string-pairs](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2847-find-maximum-number-of-string-pairs) |
 ## Math
 |  |
 | ------- |
@@ -253,6 +256,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [2847-find-maximum-number-of-string-pairs](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2847-find-maximum-number-of-string-pairs) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/Gopalkushwaha1/Leetcode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 ## Design
 |  |
