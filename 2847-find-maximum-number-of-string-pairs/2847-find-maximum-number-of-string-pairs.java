@@ -18,7 +18,6 @@ class Solution {
         for  (int i = 0 ; i < words.length ; i++ ) {
             String s = words[i] ; 
             String srev = reverse(s) ; 
-            System.out.println(s + "->" + srev) ; 
             if ( set.contains(s) || set.contains(srev)) {
                 
                 countDuplicate++ ; 
