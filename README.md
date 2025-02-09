@@ -113,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0016-3sum-closest](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0016-3sum-closest) |
+| [0242-valid-anagram](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0242-valid-anagram) |
 | [0274-h-index](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0274-h-index) |
 | [0917-boats-to-save-people](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0917-boats-to-save-people) |
 | [0946-smallest-range-ii](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0946-smallest-range-ii) |
@@ -125,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0242-valid-anagram](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0242-valid-anagram) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0567-permutation-in-string) |
 | [1364-tuple-with-same-product](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1364-tuple-with-same-product) |
@@ -142,6 +144,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0165-compare-version-numbers](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0165-compare-version-numbers) |
+| [0242-valid-anagram](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0344-reverse-string) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0557-reverse-words-in-a-string-iii](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0557-reverse-words-in-a-string-iii) |
