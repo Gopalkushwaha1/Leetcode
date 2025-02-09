@@ -17,14 +17,8 @@ class Solution {
 
         for  (int i = 0 ; i < words.length ; i++ ) {
             String s = words[i] ; 
-            String srev = reverse(s) ; 
-            if ( set.contains(s) || set.contains(srev)) {
-                
-                countDuplicate++ ; 
-                continue ; 
-            } 
-            set.add(s) ; 
-            set.add(srev) ; 
+            if ( set.contains(reverse(s))) countDuplicate++ ; 
+            set.add(s) ;  
         }
         return countDuplicate ; 
     }
