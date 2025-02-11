@@ -166,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
+| [2021-remove-all-occurrences-of-a-substring](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2128-reverse-prefix-of-word](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2128-reverse-prefix-of-word) |
 | [2243-check-if-all-as-appears-before-all-bs](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2243-check-if-all-as-appears-before-all-bs) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2572-append-characters-to-string-to-make-subsequence) |
@@ -238,6 +239,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0042-trapping-rain-water) |
+| [2021-remove-all-occurrences-of-a-substring](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2128-reverse-prefix-of-word](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2128-reverse-prefix-of-word) |
 | [3447-clear-digits](https://github.com/Gopalkushwaha1/Leetcode/tree/master/3447-clear-digits) |
 ## Monotonic Stack
@@ -272,6 +274,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [2021-remove-all-occurrences-of-a-substring](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2847-find-maximum-number-of-string-pairs](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2847-find-maximum-number-of-string-pairs) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/Gopalkushwaha1/Leetcode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3447-clear-digits](https://github.com/Gopalkushwaha1/Leetcode/tree/master/3447-clear-digits) |
