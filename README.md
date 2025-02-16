@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1695-maximum-sum-obtained-of-any-permutation](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1695-maximum-sum-obtained-of-any-permutation) |
 | [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 | [1813-maximum-erasure-value](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1813-maximum-erasure-value) |
+| [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
 | [1874-form-array-by-concatenating-subarrays-of-another-array](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1874-form-array-by-concatenating-subarrays-of-another-array) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1925-count-nice-pairs-in-an-array](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1925-count-nice-pairs-in-an-array) |
@@ -323,6 +324,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2802-find-the-punishment-number-of-an-integer) |
 ## String Matching
 |  |
