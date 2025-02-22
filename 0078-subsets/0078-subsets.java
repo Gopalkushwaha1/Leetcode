@@ -6,8 +6,7 @@ class Solution {
         }
         
         findSubset(list,ans,idx+1,nums);
-        int num = nums[idx] ; 
-        ans.add(num) ;
+        ans.add(nums[idx]) ;
         findSubset(list,ans,idx+1,nums);
         ans.remove(ans.size() - 1 );
         
