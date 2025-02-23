@@ -168,6 +168,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0022-generate-parentheses](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0022-generate-parentheses) |
 | [0165-compare-version-numbers](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0165-compare-version-numbers) |
 | [0242-valid-anagram](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0344-reverse-string) |
@@ -265,6 +266,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0410-split-array-largest-sum](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0410-split-array-largest-sum) |
 | [0747-min-cost-climbing-stairs](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0747-min-cost-climbing-stairs) |
@@ -336,6 +338,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0022-generate-parentheses) |
 | [0078-subsets](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0078-subsets) |
 | [1160-letter-tile-possibilities](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1160-letter-tile-possibilities) |
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
