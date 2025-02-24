@@ -169,6 +169,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0022-generate-parentheses](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0022-generate-parentheses) |
+| [0038-count-and-say](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0038-count-and-say) |
 | [0165-compare-version-numbers](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0165-compare-version-numbers) |
 | [0242-valid-anagram](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0344-reverse-string) |
