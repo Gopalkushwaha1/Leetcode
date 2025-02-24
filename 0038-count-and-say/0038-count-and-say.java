@@ -9,7 +9,8 @@ class Solution {
             j++;
         }
         else {
-            sb.append(j-i).append(s.charAt(i));
+            sb.append(j-i);
+            sb.append(s.charAt(i));
             i = j ; 
             j++ ; 
         }
