@@ -15,9 +15,6 @@ class Solution {
        while ( i < 101 && j < 101 ) {
             while ( i < 101 && s1[i] == 0 ) i++ ; 
             while ( j < 101 && s2[j] == 0 ) j++ ;
-            System.out.println(Math.abs(i-j) + " " + i + " " + j ) ;  
-            
-
             ans += Math.abs(i-j);
             if ( i == 101 || j == 101) return ans ; 
             s1[i]--;
