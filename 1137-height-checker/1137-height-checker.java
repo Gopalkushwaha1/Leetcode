@@ -1,14 +1,17 @@
 class Solution {
     public int heightChecker(int[] heights) {
-        int ans = 0 ; // To store ans 
-        int[] copyHeight = Arrays.copyOf(heights , heights.length); 
-        Arrays.sort(copyHeight) ; 
-
-        // count mismatch palce 
-        for ( int i = 0 ; i < heights.length ; i++ ) {
-            if ( heights[i] != copyHeight[i]) ans++ ; 
+        int[] freq = new int[101];
+        for (int n : heights) {
+            freq[n]++;
         }
 
-        return ans ; 
+        int unexpected = 0;
+        int hi = 0;
+        for (int i = 1; i < freq.length; i++) {
+            for (int j = 0; j < freq[i]; j++) {
+                if (heights[hi++] != i) unexpected++;
+            }
+        }
+        return unexpected;
     }
 }
