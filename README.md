@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0275-h-index-ii](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0275-h-index-ii) |
 | [0283-move-zeroes](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0283-move-zeroes) |
 | [0410-split-array-largest-sum](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0410-split-array-largest-sum) |
+| [0561-array-partition](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0561-array-partition) |
 | [0643-maximum-average-subarray-i](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0643-maximum-average-subarray-i) |
 | [0713-subarray-product-less-than-k](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0713-subarray-product-less-than-k) |
 | [0747-min-cost-climbing-stairs](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0747-min-cost-climbing-stairs) |
@@ -134,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0016-3sum-closest](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0016-3sum-closest) |
 | [0242-valid-anagram](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0242-valid-anagram) |
 | [0274-h-index](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0274-h-index) |
+| [0561-array-partition](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0561-array-partition) |
 | [0917-boats-to-save-people](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0917-boats-to-save-people) |
 | [0946-smallest-range-ii](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0946-smallest-range-ii) |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0982-minimum-increment-to-make-array-unique) |
@@ -262,6 +264,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0011-container-with-most-water](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0011-container-with-most-water) |
 | [0410-split-array-largest-sum](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0410-split-array-largest-sum) |
+| [0561-array-partition](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0561-array-partition) |
 | [0917-boats-to-save-people](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0917-boats-to-save-people) |
 | [0946-smallest-range-ii](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0946-smallest-range-ii) |
 | [0979-di-string-match](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0979-di-string-match) |
@@ -316,6 +319,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0274-h-index](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0274-h-index) |
+| [0561-array-partition](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0561-array-partition) |
 | [1137-height-checker](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1137-height-checker) |
 | [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
 ## Interactive
