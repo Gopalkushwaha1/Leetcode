@@ -57,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1575-maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1575-maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts) |
 | [1580-shuffle-the-array](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1580-shuffle-the-array) |
 | [1646-kth-missing-positive-number](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1646-kth-missing-positive-number) |
+| [1651-shuffle-string](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1651-shuffle-string) |
 | [1675-magnetic-force-between-two-balls](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1675-magnetic-force-between-two-balls) |
 | [1695-maximum-sum-obtained-of-any-permutation](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1695-maximum-sum-obtained-of-any-permutation) |
 | [1742-widest-vertical-area-between-two-points-containing-no-points](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1742-widest-vertical-area-between-two-points-containing-no-points) |
@@ -211,6 +212,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
+| [1651-shuffle-string](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1651-shuffle-string) |
 | [1781-check-if-two-string-arrays-are-equivalent](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1781-check-if-two-string-arrays-are-equivalent) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [1970-sorting-the-sentence](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1970-sorting-the-sentence) |
