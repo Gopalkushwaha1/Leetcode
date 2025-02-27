@@ -61,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1695-maximum-sum-obtained-of-any-permutation](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1695-maximum-sum-obtained-of-any-permutation) |
 | [1742-widest-vertical-area-between-two-points-containing-no-points](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1742-widest-vertical-area-between-two-points-containing-no-points) |
 | [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
+| [1781-check-if-two-string-arrays-are-equivalent](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1781-check-if-two-string-arrays-are-equivalent) |
 | [1813-maximum-erasure-value](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1813-maximum-erasure-value) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
 | [1829-maximum-units-on-a-truck](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1829-maximum-units-on-a-truck) |
@@ -210,6 +211,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
+| [1781-check-if-two-string-arrays-are-equivalent](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1781-check-if-two-string-arrays-are-equivalent) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [1970-sorting-the-sentence](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1970-sorting-the-sentence) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2021-remove-all-occurrences-of-a-substring) |
