@@ -48,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1319-unique-number-of-occurrences](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1319-unique-number-of-occurrences) |
 | [1364-tuple-with-same-product](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1364-tuple-with-same-product) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
+| [1378-cells-with-odd-values-in-a-matrix](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1378-cells-with-odd-values-in-a-matrix) |
 | [1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
 | [1476-count-negative-numbers-in-a-sorted-matrix](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1476-count-negative-numbers-in-a-sorted-matrix) |
 | [1477-product-of-the-last-k-numbers](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1477-product-of-the-last-k-numbers) |
@@ -233,6 +234,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0946-smallest-range-ii](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0946-smallest-range-ii) |
 | [1013-fibonacci-number](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1013-fibonacci-number) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
+| [1378-cells-with-odd-values-in-a-matrix](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1378-cells-with-odd-values-in-a-matrix) |
 | [1477-product-of-the-last-k-numbers](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1477-product-of-the-last-k-numbers) |
 | [1925-count-nice-pairs-in-an-array](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1925-count-nice-pairs-in-an-array) |
 | [2448-count-number-of-bad-pairs](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2448-count-number-of-bad-pairs) |
@@ -354,6 +356,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [1378-cells-with-odd-values-in-a-matrix](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1378-cells-with-odd-values-in-a-matrix) |
 | [1505-create-target-array-in-the-given-order](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1505-create-target-array-in-the-given-order) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2048-build-array-from-permutation](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2048-build-array-from-permutation) |
