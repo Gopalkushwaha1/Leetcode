@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1364-tuple-with-same-product](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1364-tuple-with-same-product) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1378-cells-with-odd-values-in-a-matrix](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1378-cells-with-odd-values-in-a-matrix) |
+| [1421-find-numbers-with-even-number-of-digits](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
 | [1476-count-negative-numbers-in-a-sorted-matrix](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1476-count-negative-numbers-in-a-sorted-matrix) |
 | [1477-product-of-the-last-k-numbers](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1477-product-of-the-last-k-numbers) |
@@ -235,6 +236,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1013-fibonacci-number](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1013-fibonacci-number) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1378-cells-with-odd-values-in-a-matrix](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1378-cells-with-odd-values-in-a-matrix) |
+| [1421-find-numbers-with-even-number-of-digits](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1477-product-of-the-last-k-numbers](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1477-product-of-the-last-k-numbers) |
 | [1925-count-nice-pairs-in-an-array](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1925-count-nice-pairs-in-an-array) |
 | [2448-count-number-of-bad-pairs](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2448-count-number-of-bad-pairs) |
