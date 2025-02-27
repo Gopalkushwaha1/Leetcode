@@ -64,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1925-count-nice-pairs-in-an-array](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1925-count-nice-pairs-in-an-array) |
 | [1927-maximum-ascending-subarray-sum](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1927-maximum-ascending-subarray-sum) |
+| [2048-build-array-from-permutation](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2048-build-array-from-permutation) |
 | [2058-concatenation-of-array](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2058-concatenation-of-array) |
 | [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
 | [2215-finding-3-digit-even-numbers](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2215-finding-3-digit-even-numbers) |
@@ -344,6 +345,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2021-remove-all-occurrences-of-a-substring) |
+| [2048-build-array-from-permutation](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2048-build-array-from-permutation) |
 | [2058-concatenation-of-array](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2058-concatenation-of-array) |
 | [2847-find-maximum-number-of-string-pairs](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2847-find-maximum-number-of-string-pairs) |
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/Gopalkushwaha1/Leetcode/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
