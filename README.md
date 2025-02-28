@@ -77,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1813-maximum-erasure-value](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1813-maximum-erasure-value) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
 | [1829-maximum-units-on-a-truck](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1829-maximum-units-on-a-truck) |
+| [1833-find-the-highest-altitude](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1833-find-the-highest-altitude) |
 | [1874-form-array-by-concatenating-subarrays-of-another-array](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1874-form-array-by-concatenating-subarrays-of-another-array) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1925-count-nice-pairs-in-an-array](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1925-count-nice-pairs-in-an-array) |
@@ -156,6 +157,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1603-running-sum-of-1d-array](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1603-running-sum-of-1d-array) |
 | [1695-maximum-sum-obtained-of-any-permutation](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1695-maximum-sum-obtained-of-any-permutation) |
 | [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
+| [1833-find-the-highest-altitude](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1833-find-the-highest-altitude) |
 ## Sorting
 |  |
 | ------- |
