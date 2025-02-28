@@ -65,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1742-widest-vertical-area-between-two-points-containing-no-points](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1742-widest-vertical-area-between-two-points-containing-no-points) |
 | [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 | [1781-check-if-two-string-arrays-are-equivalent](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1781-check-if-two-string-arrays-are-equivalent) |
+| [1791-richest-customer-wealth](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1791-richest-customer-wealth) |
 | [1813-maximum-erasure-value](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1813-maximum-erasure-value) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
 | [1829-maximum-units-on-a-truck](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1829-maximum-units-on-a-truck) |
@@ -335,6 +336,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0048-rotate-image](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0048-rotate-image) |
 | [1476-count-negative-numbers-in-a-sorted-matrix](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1476-count-negative-numbers-in-a-sorted-matrix) |
+| [1791-richest-customer-wealth](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1791-richest-customer-wealth) |
 ## Counting
 |  |
 | ------- |
