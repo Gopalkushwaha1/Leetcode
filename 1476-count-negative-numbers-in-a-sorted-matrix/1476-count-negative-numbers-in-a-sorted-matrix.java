@@ -16,7 +16,6 @@ class Solution {
            }
              
            count += (num.length - start ) ; 
-           System.out.print(count + " ") ;
         }
         return count ; 
     }
