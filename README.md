@@ -93,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2448-count-number-of-bad-pairs](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2448-count-number-of-bad-pairs) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2525-count-number-of-distinct-integers-after-reverse-operations](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2525-count-number-of-distinct-integers-after-reverse-operations) |
+| [2551-apply-operations-to-an-array](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2551-apply-operations-to-an-array) |
 | [2727-number-of-senior-citizens](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2727-number-of-senior-citizens) |
 | [2847-find-maximum-number-of-string-pairs](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2847-find-maximum-number-of-string-pairs) |
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/Gopalkushwaha1/Leetcode/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
@@ -303,6 +304,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1454-remove-palindromic-subsequences](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1454-remove-palindromic-subsequences) |
 | [1874-form-array-by-concatenating-subarrays-of-another-array](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1874-form-array-by-concatenating-subarrays-of-another-array) |
 | [2128-reverse-prefix-of-word](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2128-reverse-prefix-of-word) |
+| [2551-apply-operations-to-an-array](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2551-apply-operations-to-an-array) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2572-append-characters-to-string-to-make-subsequence) |
 ## Greedy
 |  |
@@ -396,6 +398,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2048-build-array-from-permutation](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2048-build-array-from-permutation) |
 | [2058-concatenation-of-array](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2058-concatenation-of-array) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2132-convert-1d-array-into-2d-array) |
+| [2551-apply-operations-to-an-array](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2551-apply-operations-to-an-array) |
 | [2847-find-maximum-number-of-string-pairs](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2847-find-maximum-number-of-string-pairs) |
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/Gopalkushwaha1/Leetcode/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/Gopalkushwaha1/Leetcode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
