@@ -14,18 +14,19 @@ class Solution {
                 ans[k][0] = key1 ; 
                 ans[k][1] = val1 + val2 ; 
                 count++;
-                i++ ; j++ ; k++;
+                i++ ; j++ ; 
             }
             else if ( key1 < key2 ) {
                 ans[k][0] = key1;
                 ans[k][1] = val1 ; 
-                i++ ; k++;
+                i++ ;
             }
             else {
                 ans[k][0] = key2 ; 
                 ans[k][1] = val2 ;
-                j++ ; k++ ; 
+                j++ ;  
             }
+            k++ ;
         } 
         if ( i < nums1.length ) {
             for ( int l = i ; l < nums1.length ; l++ ) {
