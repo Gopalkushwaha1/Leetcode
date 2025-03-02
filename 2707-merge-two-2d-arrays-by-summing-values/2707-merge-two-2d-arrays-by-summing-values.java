@@ -28,19 +28,15 @@ class Solution {
             }
             k++ ;
         } 
-        if ( i < nums1.length ) {
-            for ( int l = i ; l < nums1.length ; l++ ) {
-                ans[k][0] = nums1[l][0] ;
-                ans[k][1] = nums1[l][1] ; 
-                k++;
-            }
+        while ( i < nums1.length ) {
+                ans[k][0] = nums1[i][0] ;
+                ans[k][1] = nums1[i][1] ; 
+                k++; i++;
         }
-        if ( j < nums2.length ) {
-            for ( int  l = j ; l < nums2.length ; l++ ) {
-                ans[k][0] = nums2[l][0] ;
-                ans[k][1] = nums2[l][1] ; 
-                k++;
-            }
+        while ( j < nums2.length ) {
+                ans[k][0] = nums2[j][0] ;
+                ans[k][1] = nums2[j][1] ; 
+                k++; j++;
         }
         int[][] result = new int[ans.length-count][2] ; 
         for ( int l = 0 ; l < ans.length-count ; l++ ) {
