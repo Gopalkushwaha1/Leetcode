@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0275-h-index-ii](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0275-h-index-ii) |
 | [0283-move-zeroes](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0283-move-zeroes) |
 | [0303-range-sum-query-immutable](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0303-range-sum-query-immutable) |
+| [0349-intersection-of-two-arrays](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0349-intersection-of-two-arrays) |
 | [0410-split-array-largest-sum](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0410-split-array-largest-sum) |
 | [0561-array-partition](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0561-array-partition) |
 | [0566-reshape-the-matrix](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0566-reshape-the-matrix) |
@@ -116,6 +117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0275-h-index-ii](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0275-h-index-ii) |
+| [0349-intersection-of-two-arrays](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0349-intersection-of-two-arrays) |
 | [0374-guess-number-higher-or-lower](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0374-guess-number-higher-or-lower) |
 | [0410-split-array-largest-sum](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0410-split-array-largest-sum) |
 | [0713-subarray-product-less-than-k](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0713-subarray-product-less-than-k) |
@@ -175,6 +177,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0242-valid-anagram) |
 | [0274-h-index](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0274-h-index) |
+| [0349-intersection-of-two-arrays](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0349-intersection-of-two-arrays) |
 | [0561-array-partition](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0561-array-partition) |
 | [0917-boats-to-save-people](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0917-boats-to-save-people) |
 | [0941-sort-array-by-parity](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0941-sort-array-by-parity) |
@@ -201,6 +204,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0073-set-matrix-zeroes](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0169-majority-element](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0242-valid-anagram) |
+| [0349-intersection-of-two-arrays](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0349-intersection-of-two-arrays) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0567-permutation-in-string) |
 | [1160-letter-tile-possibilities](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1160-letter-tile-possibilities) |
@@ -300,6 +304,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0283-move-zeroes) |
 | [0344-reverse-string](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0344-reverse-string) |
+| [0349-intersection-of-two-arrays](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0349-intersection-of-two-arrays) |
 | [0443-string-compression](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0443-string-compression) |
 | [0557-reverse-words-in-a-string-iii](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0557-reverse-words-in-a-string-iii) |
 | [0567-permutation-in-string](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0567-permutation-in-string) |
