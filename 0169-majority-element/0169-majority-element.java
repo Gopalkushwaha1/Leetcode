@@ -1,18 +1,20 @@
 class Solution {
     public int majorityElement(int[] nums) {
-        for  ( int i = 1 ; i < nums.length ; i++ ) {
-            if ( nums[i] > nums[i-1]) continue ; 
-            for ( int j = i ; j > 0 ; j-- ) {
-                if ( nums[j] < nums[j-1]) {
-                    int temp = nums[j] ; 
-                    nums[j] = nums[j-1] ; 
-                    nums[j-1] = temp ;
+        int count = 0 ; 
+        Map<Integer,Integer> set = new HashMap<>() ; 
+
+        for ( int ele : nums ) {
+            if ( set.containsKey(ele)) {
+                int freq = set.get(ele) ; 
+                if ( freq >= nums.length/2) {
+                    return ele ; 
                 }
-                else {
-                    break ; 
-                }
+                set.put(ele,freq+1);
+            }
+            else {
+                set.put(ele,1);
             }
         }
-        return nums[(0+nums.length)/2] ; 
+        return nums[0] ; 
     }
 }
