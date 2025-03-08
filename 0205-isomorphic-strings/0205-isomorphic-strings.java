@@ -17,7 +17,7 @@ class Solution {
                 char c = t.charAt(i) ; 
                 if ( check[c] == true ) return false ; 
                 map.put(s.charAt(i) , t.charAt(i)) ; 
-                check[t.charAt(i)] = true ; 
+                check[c] = true ; 
             }
         }
         return true ; 
