@@ -151,6 +151,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 | [1813-maximum-erasure-value](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1813-maximum-erasure-value) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
+| [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [3463-alternating-groups-i](https://github.com/Gopalkushwaha1/Leetcode/tree/master/3463-alternating-groups-i) |
 | [3483-alternating-groups-ii](https://github.com/Gopalkushwaha1/Leetcode/tree/master/3483-alternating-groups-ii) |
 ## Prefix Sum
@@ -259,6 +260,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2128-reverse-prefix-of-word](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2128-reverse-prefix-of-word) |
 | [2243-check-if-all-as-appears-before-all-bs](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2243-check-if-all-as-appears-before-all-bs) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2456-construct-smallest-number-from-di-string) |
+| [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2572-append-characters-to-string-to-make-subsequence) |
 | [2727-number-of-senior-citizens](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2727-number-of-senior-citizens) |
 | [2847-find-maximum-number-of-string-pairs](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2847-find-maximum-number-of-string-pairs) |
