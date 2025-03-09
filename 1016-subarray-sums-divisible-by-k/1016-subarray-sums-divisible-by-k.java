@@ -1,7 +1,7 @@
 class Solution {
     public int subarraysDivByK(int[] nums, int k) {
-        HashMap<Integer,Integer> map = new HashMap<>() ; 
-        map.put(0,1) ; 
+        int[] arr = new int[k] ; 
+        arr[0] = 1 ; 
         int ans = 0 , sum = 0 ;
 
         for ( int ele : nums ) {
@@ -10,12 +10,12 @@ class Solution {
             if ( sum < 0 ) {
                 sum += k ; 
             }
-            if ( map.containsKey(sum)) {
-                ans += map.get(sum) ; 
-                map.put(sum , map.get(sum)+1);
+            if ( arr[sum] > 0 ) {
+                ans += arr[sum] ; 
+                arr[sum]++;
             }
             else {
-                map.put(sum , 1 ) ; 
+                arr[sum] = 1 ; 
             }
         } 
         return ans ;  
