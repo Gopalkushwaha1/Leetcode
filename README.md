@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0283-move-zeroes) |
 | [0303-range-sum-query-immutable](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0303-range-sum-query-immutable) |
 | [0349-intersection-of-two-arrays](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0349-intersection-of-two-arrays) |
+| [0380-insert-delete-getrandom-o1](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0410-split-array-largest-sum](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0410-split-array-largest-sum) |
 | [0454-4sum-ii](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0454-4sum-ii) |
 | [0561-array-partition](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0561-array-partition) |
@@ -211,6 +212,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0205-isomorphic-strings](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0242-valid-anagram) |
 | [0349-intersection-of-two-arrays](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0349-intersection-of-two-arrays) |
+| [0380-insert-delete-getrandom-o1](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0454-4sum-ii](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0454-4sum-ii) |
 | [0567-permutation-in-string](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0567-permutation-in-string) |
@@ -275,6 +277,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0048-rotate-image](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0048-rotate-image) |
 | [0189-rotate-array](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0189-rotate-array) |
+| [0380-insert-delete-getrandom-o1](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0946-smallest-range-ii](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0946-smallest-range-ii) |
 | [1013-fibonacci-number](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1013-fibonacci-number) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
@@ -440,6 +443,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0303-range-sum-query-immutable](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0303-range-sum-query-immutable) |
+| [0380-insert-delete-getrandom-o1](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [1477-product-of-the-last-k-numbers](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1477-product-of-the-last-k-numbers) |
 | [2434-design-a-number-container-system](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2434-design-a-number-container-system) |
 ## Ordered Set
@@ -488,4 +492,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2610-closest-prime-numbers-in-range](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2610-closest-prime-numbers-in-range) |
+## Randomized
+|  |
+| ------- |
+| [0380-insert-delete-getrandom-o1](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 <!---LeetCode Topics End-->
