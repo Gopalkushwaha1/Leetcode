@@ -35,8 +35,6 @@ class Solution {
         int negtaivEnd = negativeEnd(nums) ; 
         int povStart = positive(nums) ; 
 
-        System.out.print(negtaivEnd + " " + povStart) ; 
-
         return Math.max ((negtaivEnd+1) , (j-povStart) ) ; 
     }
 }
