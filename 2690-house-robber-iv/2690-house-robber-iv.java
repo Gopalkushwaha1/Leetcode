@@ -26,7 +26,6 @@ class Solution {
 
         while ( min <= max ) {
             int mid = min + (max - min)/2 ; 
-            System.out.println(min + " " + max + " " + mid ) ; 
             if ( isPossible(mid , nums , k )) {
                 max = mid - 1 ; 
             }
