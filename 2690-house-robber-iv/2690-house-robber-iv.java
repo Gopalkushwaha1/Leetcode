@@ -22,7 +22,7 @@ class Solution {
             max = Math.max( ele , max ) ; 
         } 
 
-        if ( k == 1 ) return  min; 
+        // if ( k == 1 ) return  min; 
 
         while ( min <= max ) {
             int mid = min + (max - min)/2 ; 
