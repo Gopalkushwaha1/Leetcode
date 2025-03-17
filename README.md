@@ -501,6 +501,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0021-merge-two-sorted-lists) |
+| [0024-swap-nodes-in-pairs](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0024-swap-nodes-in-pairs) |
 | [0206-reverse-linked-list](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0206-reverse-linked-list) |
 | [1013-fibonacci-number](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1013-fibonacci-number) |
 ## Memoization
@@ -530,6 +531,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0002-add-two-numbers) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0021-merge-two-sorted-lists](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0021-merge-two-sorted-lists) |
+| [0024-swap-nodes-in-pairs](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0024-swap-nodes-in-pairs) |
 | [0141-linked-list-cycle](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0206-reverse-linked-list](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0206-reverse-linked-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0237-delete-node-in-a-linked-list) |
