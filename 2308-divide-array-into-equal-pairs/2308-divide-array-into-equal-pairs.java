@@ -1,6 +1,6 @@
 class Solution {
     public boolean divideArray(int[] nums) {
-        int[] num = new int[1001] ; 
+        int[] num = new int[501] ; 
 
         for ( int ele : nums ) {
             num[ele]++ ; 
