@@ -335,6 +335,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0031-next-permutation](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0031-next-permutation) |
 | [0042-trapping-rain-water](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
+| [0086-partition-list](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0086-partition-list) |
 | [0141-linked-list-cycle](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0165-compare-version-numbers](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0165-compare-version-numbers) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
@@ -532,6 +533,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0021-merge-two-sorted-lists](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0021-merge-two-sorted-lists) |
 | [0024-swap-nodes-in-pairs](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0024-swap-nodes-in-pairs) |
+| [0086-partition-list](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0086-partition-list) |
 | [0141-linked-list-cycle](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0206-reverse-linked-list](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0206-reverse-linked-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0237-delete-node-in-a-linked-list) |
