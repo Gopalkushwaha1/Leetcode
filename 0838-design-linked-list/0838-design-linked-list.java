@@ -3,74 +3,77 @@ class MyLinkedList {
         int val;
         Node next;
 
-        Node(int val) {  // Constructor to initialize a node
+        Node(int val) {
             this.val = val;
             this.next = null;
         }
     }
 
-    private Node head;
-    private int size; // To keep track of the size of the linked list
+    public Node head;
+    public Node next;
+    public int size = 0;
 
     public MyLinkedList() {
-        this.head = null;
-        this.size = 0;
+        head = null;
+        next = null;
     }
 
     public int get(int index) {
-        if (index < 0 || index >= size) {
-            return -1; // Return -1 if index is out of bounds
-        }
+        if (index < 0 || index >= size) return -1;  // Check index bounds
         Node temp = head;
-        for (int i = 0; i < index; i++) {
+        while (index > 0) {
             temp = temp.next;
+            index--;
         }
         return temp.val;
     }
 
     public void addAtHead(int val) {
-        Node newNode = new Node(val);
-        newNode.next = head;
-        head = newNode;
+        Node temp = new Node(val);
+        temp.next = head;
+        head = temp;
         size++;
     }
 
     public void addAtTail(int val) {
-        Node newNode = new Node(val);
-        if (head == null) {
-            head = newNode;
+        Node temp = new Node(val);
+        if (size == 0) {
+            head = temp;
         } else {
-            Node temp = head;
-            while (temp.next != null) {
-                temp = temp.next;
+            Node temp2 = head;
+            while (temp2.next != null) {
+                temp2 = temp2.next;
             }
-            temp.next = newNode;
+            temp2.next = temp;
         }
         size++;
     }
 
     public void addAtIndex(int index, int val) {
-        if (index < 0 || index > size) {
-            return; // Invalid index
-        }
+        if (index < 0 || index > size) return;  // Invalid index
         if (index == 0) {
             addAtHead(val);
             return;
         }
-        Node temp = head;
-        for (int i = 0; i < index - 1; i++) {
-            temp = temp.next;
+        if (index == size) {
+            addAtTail(val);
+            return;
         }
-        Node newNode = new Node(val);
-        newNode.next = temp.next;
-        temp.next = newNode;
+
+        Node temp = new Node(val);
+        Node temp2 = head;
+
+        for (int i = 0; i < index - 1; i++) {
+            temp2 = temp2.next;
+        }
+
+        temp.next = temp2.next;
+        temp2.next = temp;
         size++;
     }
 
     public void deleteAtIndex(int index) {
-        if (index < 0 || index >= size) {
-            return; // Invalid index
-        }
+        if (index < 0 || index >= size) return;  // Invalid index
         if (index == 0) {
             head = head.next;
         } else {
@@ -83,13 +86,3 @@ class MyLinkedList {
         size--;
     }
 }
-
-/**
- * Your MyLinkedList object will be instantiated and called as such:
- * MyLinkedList obj = new MyLinkedList();
- * int param_1 = obj.get(index);
- * obj.addAtHead(val);
- * obj.addAtTail(val);
- * obj.addAtIndex(index,val);
- * obj.deleteAtIndex(index);
- */
