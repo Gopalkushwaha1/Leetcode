@@ -17,9 +17,7 @@ class Solution {
             }
             j++ ; 
          }
-         for ( int k = 0 ; k < nums.length ; k++ ) {
-            if(nums[k] == 0 ) return -1 ; 
-         }
+         if ( nums[nums.length-1] == 0 || nums[nums.length-2] == 0 ) return -1 ; 
          return count ; 
     }
 }
