@@ -32,14 +32,14 @@ class Solution {
             }
         }
         Arrays.sort(arr) ; 
-        if ( arr.length % 2 == 0 ) {
-            int left = findOperation(arr , x , (arr.length-1)/2) ; 
-            int right = findOperation(arr , x , arr.length/2) ;
-            if ( left == -1 || right == -1 ) {
-                return -1 ; 
-            }
-            return Math.min(left , right ) ; 
-        }
+        // if ( arr.length % 2 == 0 ) {
+        //     int left = findOperation(arr , x , (arr.length-1)/2) ; 
+        //     int right = findOperation(arr , x , arr.length/2) ;
+        //     if ( left == -1 || right == -1 ) {
+        //         return -1 ; 
+        //     }
+        //     return Math.min(left , right ) ; 
+        // }
         int oddElement = findOperation(arr,x,arr.length/2) ; 
 
         return oddElement == -1 ? -1 : oddElement ; 
