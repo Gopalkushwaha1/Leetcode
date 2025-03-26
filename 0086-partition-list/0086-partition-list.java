@@ -18,14 +18,13 @@ class Solution {
         while ( head != null ) {
             if ( head.val < x ) {
                 less.next = head ;
-                less = head ; 
-                head = head.next ; 
+                less = head ;  
             }
             else {
                 big.next = head ; 
-                big = head ; 
-                head = head.next ; 
+                big = head ;  
             }
+            head = head.next ;
         }
         big.next = null ; 
 
