@@ -10,15 +10,15 @@
  */
 class Solution {
     public ListNode partition(ListNode head, int x) {
-        ListNode small = new ListNode(-1) ; 
-        ListNode smallAns = small ; 
+        ListNode less = new ListNode(-1) ;
         ListNode big = new ListNode(-1) ; 
-        ListNode bigAns = big ; 
+        ListNode big1 = big ;
+        ListNode less1 = less ; 
 
         while ( head != null ) {
             if ( head.val < x ) {
-                small.next = head ; 
-                small = head ; 
+                less.next = head ;
+                less = head ; 
                 head = head.next ; 
             }
             else {
@@ -27,8 +27,10 @@ class Solution {
                 head = head.next ; 
             }
         }
-        big.next = null ;
-        small.next = bigAns.next ; 
-        return smallAns.next ; 
+        big.next = null ; 
+
+        less.next = big1.next ;
+
+        return less1.next ; 
     }
 }
