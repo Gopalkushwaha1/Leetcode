@@ -25,8 +25,7 @@ class Solution {
         }
         for ( int i = 0 ; i < ans.length-1 ; i++ ) { 
             int left = ans[i]*2 ;
-            int right = (ans[ans.length-1] - ans[i])*2 ; 
-            System.out.println(left + " " + right) ; 
+            int right = (ans[ans.length-1] - ans[i])*2 ;  
             if(left > i+1 && right > ans.length - (i+1) ) return i ; 
         } 
         return -1; 
