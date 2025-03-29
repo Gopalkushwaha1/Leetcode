@@ -114,6 +114,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2727-number-of-senior-citizens](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2727-number-of-senior-citizens) |
 | [2847-find-maximum-number-of-string-pairs](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2847-find-maximum-number-of-string-pairs) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2888-minimum-index-of-a-valid-split) |
+| [3001-apply-operations-to-maximize-score](https://github.com/Gopalkushwaha1/Leetcode/tree/master/3001-apply-operations-to-maximize-score) |
 | [3227-find-missing-and-repeated-values](https://github.com/Gopalkushwaha1/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/Gopalkushwaha1/Leetcode/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/Gopalkushwaha1/Leetcode/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
@@ -229,6 +230,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2888-minimum-index-of-a-valid-split) |
+| [3001-apply-operations-to-maximize-score](https://github.com/Gopalkushwaha1/Leetcode/tree/master/3001-apply-operations-to-maximize-score) |
 | [3430-count-days-without-meetings](https://github.com/Gopalkushwaha1/Leetcode/tree/master/3430-count-days-without-meetings) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/Gopalkushwaha1/Leetcode/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
 ## Hash Table
@@ -331,6 +333,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2610-closest-prime-numbers-in-range](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2610-closest-prime-numbers-in-range) |
 | [2649-count-total-number-of-colored-cells](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2649-count-total-number-of-colored-cells) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2802-find-the-punishment-number-of-an-integer) |
+| [3001-apply-operations-to-maximize-score](https://github.com/Gopalkushwaha1/Leetcode/tree/master/3001-apply-operations-to-maximize-score) |
 | [3227-find-missing-and-repeated-values](https://github.com/Gopalkushwaha1/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
 ## Queue
 |  |
@@ -407,6 +410,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2572-append-characters-to-string-to-make-subsequence) |
+| [3001-apply-operations-to-maximize-score](https://github.com/Gopalkushwaha1/Leetcode/tree/master/3001-apply-operations-to-maximize-score) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -424,11 +428,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2128-reverse-prefix-of-word](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2128-reverse-prefix-of-word) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2456-construct-smallest-number-from-di-string) |
+| [3001-apply-operations-to-maximize-score](https://github.com/Gopalkushwaha1/Leetcode/tree/master/3001-apply-operations-to-maximize-score) |
 | [3447-clear-digits](https://github.com/Gopalkushwaha1/Leetcode/tree/master/3447-clear-digits) |
 ## Monotonic Stack
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0042-trapping-rain-water) |
+| [3001-apply-operations-to-maximize-score](https://github.com/Gopalkushwaha1/Leetcode/tree/master/3001-apply-operations-to-maximize-score) |
 ## Line Sweep
 |  |
 | ------- |
@@ -555,6 +561,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2610-closest-prime-numbers-in-range](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2610-closest-prime-numbers-in-range) |
+| [3001-apply-operations-to-maximize-score](https://github.com/Gopalkushwaha1/Leetcode/tree/master/3001-apply-operations-to-maximize-score) |
 ## Randomized
 |  |
 | ------- |
