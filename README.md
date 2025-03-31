@@ -109,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2665-minimum-time-to-repair-cars](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2665-minimum-time-to-repair-cars) |
+| [2681-put-marbles-in-bags](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2681-put-marbles-in-bags) |
 | [2690-house-robber-iv](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2690-house-robber-iv) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [2727-number-of-senior-citizens](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2727-number-of-senior-citizens) |
@@ -229,6 +230,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2215-finding-3-digit-even-numbers](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2215-finding-3-digit-even-numbers) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
+| [2681-put-marbles-in-bags](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2681-put-marbles-in-bags) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2888-minimum-index-of-a-valid-split) |
 | [3001-apply-operations-to-maximize-score](https://github.com/Gopalkushwaha1/Leetcode/tree/master/3001-apply-operations-to-maximize-score) |
 | [3430-count-days-without-meetings](https://github.com/Gopalkushwaha1/Leetcode/tree/master/3430-count-days-without-meetings) |
@@ -349,6 +351,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2434-design-a-number-container-system](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2434-design-a-number-container-system) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
+| [2681-put-marbles-in-bags](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2681-put-marbles-in-bags) |
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/Gopalkushwaha1/Leetcode/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
 ## Monotonic Queue
 |  |
@@ -414,6 +417,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2572-append-characters-to-string-to-make-subsequence) |
+| [2681-put-marbles-in-bags](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2681-put-marbles-in-bags) |
 | [3001-apply-operations-to-maximize-score](https://github.com/Gopalkushwaha1/Leetcode/tree/master/3001-apply-operations-to-maximize-score) |
 ## Dynamic Programming
 |  |
