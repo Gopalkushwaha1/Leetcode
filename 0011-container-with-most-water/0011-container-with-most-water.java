@@ -5,12 +5,8 @@ class Solution {
        while ( i < j ) {
         int min = Math.min(height[i] , height[j]) ; 
         max = Math.max(max , min * (j - i )) ; 
-        if(height[i] < height[j]) {
-            i++;
-        }
-        else {
-            j--;
-        }
+        if(height[i] < height[j]) i++;
+        else j--;
        } 
 
        return max ; 
