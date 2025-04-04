@@ -12,9 +12,7 @@ class Solution {
                 if( c == '(' && ch != ')') return false ; 
                 else if ( c == '[' && ch != ']') return false ; 
                 else if( c == '{' && ch != '}') return false ; 
-                else {
-                    st.pop() ; 
-                }
+                else  st.pop() ; 
             }
         }
 
