@@ -282,6 +282,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0005-longest-palindromic-substring](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0005-longest-palindromic-substring) |
+| [0020-valid-parentheses](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0022-generate-parentheses) |
 | [0038-count-and-say](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0038-count-and-say) |
 | [0165-compare-version-numbers](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0165-compare-version-numbers) |
@@ -440,6 +441,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0445-add-two-numbers-ii](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0445-add-two-numbers-ii) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2021-remove-all-occurrences-of-a-substring) |
