@@ -7,10 +7,8 @@ class Solution {
         } 
         boolean odd = false ; 
         int count = 0 ; 
-        int max = 0 ; 
 
         for ( int ele : arr ) {
-            System.out.print(ele + " ") ; 
             if(ele % 2 == 0 ) {
                 count += ele ; 
             }
