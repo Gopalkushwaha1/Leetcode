@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0454-4sum-ii](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0454-4sum-ii) |
 | [0561-array-partition](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0561-array-partition) |
 | [0566-reshape-the-matrix](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0566-reshape-the-matrix) |
+| [0624-maximum-distance-in-arrays](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0624-maximum-distance-in-arrays) |
 | [0643-maximum-average-subarray-i](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0643-maximum-average-subarray-i) |
 | [0713-subarray-product-less-than-k](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0713-subarray-product-less-than-k) |
 | [0724-find-pivot-index](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0724-find-pivot-index) |
@@ -423,6 +424,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0409-longest-palindrome](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0409-longest-palindrome) |
 | [0410-split-array-largest-sum](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0410-split-array-largest-sum) |
 | [0561-array-partition](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0561-array-partition) |
+| [0624-maximum-distance-in-arrays](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0624-maximum-distance-in-arrays) |
 | [0768-partition-labels](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0768-partition-labels) |
 | [0917-boats-to-save-people](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0917-boats-to-save-people) |
 | [0946-smallest-range-ii](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0946-smallest-range-ii) |
