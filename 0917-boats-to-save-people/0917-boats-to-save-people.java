@@ -4,9 +4,8 @@ class Solution {
         Arrays.sort(people) ; 
 
         while ( i <= j  ) {
-            if( people[i] + people[j] <= limit )i++;
+            if( people[i] + people[j--] <= limit )i++;
             count++;
-            j--;
         } 
 
         return count ; 
