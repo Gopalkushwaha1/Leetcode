@@ -1,21 +1,22 @@
 class Solution {
     public int minCost(String colors, int[] neededTime) {
+        Stack<Character> ch = new Stack<>() ; 
+        Stack<Integer> st = new Stack<>() ; 
         int ans = 0 ; 
 
-        for ( int i = 0 ; i < colors.length()-1 ; i++ ) {
-            if(colors.charAt(i) != colors.charAt(i+1)) continue ; 
-            int j = i ,  sum = 0 , max = 0 ; 
-            while ( j < colors.length() - 1 && colors.charAt(j) == colors.charAt(j+1) ) {
-                sum += neededTime[j] ; 
-                max = Math.max(max , neededTime[j]) ; 
-                i++;
-                j++; 
-            } 
-            sum += neededTime[j];
-            max = Math.max(max , neededTime[j]) ; 
-            ans += (sum - max) ; 
-        }
+        ch.add(colors.charAt(0));
+        st.add(neededTime[0]) ; 
 
+        for ( int i = 1 ; i < colors.length() ; i++ ) {
+            if(ch.peek() == colors.charAt(i)){
+                ans += Math.min(st.peek() , neededTime[i]);
+                st.push(Math.max(st.pop() , neededTime[i]) ); 
+            }
+            else {
+                ch.add(colors.charAt(i));
+                st.add(neededTime[i]) ; 
+            }
+        }
         return ans ; 
     }
 }
