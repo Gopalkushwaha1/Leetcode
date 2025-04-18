@@ -1,20 +1,12 @@
 class Solution {
-    public int brokenCalc(int start, int target) {
-        int count = 0 ; 
-        while ( target != start ) {
-            if ( target < start ) {
-                count += start - target ;
-                return count ; 
-            }
-            if(target %2 != 0 ) {
-                count += 2 ; 
-                target = (target+1)/2;
-            }
-            else {
-                count++;
-                target /= 2 ; 
-            }
+    public int brokenCalc(int startValue, int target) {
+        int ans = 0 ; 
+
+        while ( target > startValue ) {
+            ans++;
+            target = (target%2 == 0) ? target/2 : target + 1; 
         }
-        return count ; 
+
+        return ans + startValue - target ; 
     }
 }
