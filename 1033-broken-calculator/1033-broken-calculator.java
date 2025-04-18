@@ -4,7 +4,7 @@ class Solution {
 
         while ( target > startValue ) {
             ans++;
-            target = (target%2 == 0) ? target/2 : target + 1; 
+            target = (target%2 == 0) ? target/2 : ++target; 
         }
 
         return ans + startValue - target ; 
