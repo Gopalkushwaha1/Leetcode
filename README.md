@@ -113,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2362-minimum-rounds-to-complete-all-tasks](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2362-minimum-rounds-to-complete-all-tasks) |
 | [2366-maximum-bags-with-full-capacity-of-rocks](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2366-maximum-bags-with-full-capacity-of-rocks) |
 | [2448-count-number-of-bad-pairs](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2448-count-number-of-bad-pairs) |
+| [2450-minimum-replacements-to-sort-the-array](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2450-minimum-replacements-to-sort-the-array) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2478-longest-nice-subarray](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2478-longest-nice-subarray) |
 | [2525-count-number-of-distinct-integers-after-reverse-operations](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2525-count-number-of-distinct-integers-after-reverse-operations) |
@@ -360,6 +361,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1925-count-nice-pairs-in-an-array](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1925-count-nice-pairs-in-an-array) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2448-count-number-of-bad-pairs](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2448-count-number-of-bad-pairs) |
+| [2450-minimum-replacements-to-sort-the-array](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2450-minimum-replacements-to-sort-the-array) |
 | [2525-count-number-of-distinct-integers-after-reverse-operations](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2525-count-number-of-distinct-integers-after-reverse-operations) |
 | [2610-closest-prime-numbers-in-range](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2610-closest-prime-numbers-in-range) |
 | [2649-count-total-number-of-colored-cells](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2649-count-total-number-of-colored-cells) |
@@ -457,6 +459,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
 | [2362-minimum-rounds-to-complete-all-tasks](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2362-minimum-rounds-to-complete-all-tasks) |
 | [2366-maximum-bags-with-full-capacity-of-rocks](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2366-maximum-bags-with-full-capacity-of-rocks) |
+| [2450-minimum-replacements-to-sort-the-array](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2450-minimum-replacements-to-sort-the-array) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2487-optimal-partition-of-string](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2487-optimal-partition-of-string) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2572-append-characters-to-string-to-make-subsequence) |
