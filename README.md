@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0724-find-pivot-index](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0724-find-pivot-index) |
 | [0747-min-cost-climbing-stairs](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0747-min-cost-climbing-stairs) |
 | [0792-binary-search](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0792-binary-search) |
+| [0797-rabbits-in-forest](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0797-rabbits-in-forest) |
 | [0898-transpose-matrix](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0898-transpose-matrix) |
 | [0907-koko-eating-bananas](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0907-koko-eating-bananas) |
 | [0917-boats-to-save-people](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0917-boats-to-save-people) |
@@ -269,6 +270,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0454-4sum-ii](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0454-4sum-ii) |
 | [0567-permutation-in-string](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0567-permutation-in-string) |
 | [0768-partition-labels](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0768-partition-labels) |
+| [0797-rabbits-in-forest](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0797-rabbits-in-forest) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1160-letter-tile-possibilities](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1160-letter-tile-possibilities) |
 | [1319-unique-number-of-occurrences](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1319-unique-number-of-occurrences) |
@@ -349,6 +351,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0189-rotate-array) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0445-add-two-numbers-ii](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0445-add-two-numbers-ii) |
+| [0797-rabbits-in-forest](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0797-rabbits-in-forest) |
 | [0946-smallest-range-ii](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0946-smallest-range-ii) |
 | [1013-fibonacci-number](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1013-fibonacci-number) |
 | [1033-broken-calculator](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1033-broken-calculator) |
@@ -441,6 +444,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0561-array-partition](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0561-array-partition) |
 | [0624-maximum-distance-in-arrays](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0624-maximum-distance-in-arrays) |
 | [0768-partition-labels](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0768-partition-labels) |
+| [0797-rabbits-in-forest](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0797-rabbits-in-forest) |
 | [0917-boats-to-save-people](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0917-boats-to-save-people) |
 | [0946-smallest-range-ii](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0946-smallest-range-ii) |
 | [0979-di-string-match](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0979-di-string-match) |
