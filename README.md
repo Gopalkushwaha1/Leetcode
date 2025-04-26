@@ -97,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1833-find-the-highest-altitude](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1833-find-the-highest-altitude) |
 | [1874-form-array-by-concatenating-subarrays-of-another-array](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1874-form-array-by-concatenating-subarrays-of-another-array) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
+| [1917-maximum-average-pass-ratio](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1917-maximum-average-pass-ratio) |
 | [1925-count-nice-pairs-in-an-array](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1925-count-nice-pairs-in-an-array) |
 | [1927-maximum-ascending-subarray-sum](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1927-maximum-ascending-subarray-sum) |
 | [1938-minimum-operations-to-make-the-array-increasing](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1938-minimum-operations-to-make-the-array-increasing) |
@@ -383,6 +384,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/Gopalkushwaha1/Leetcode/tree/master/0239-sliding-window-maximum) |
+| [1917-maximum-average-pass-ratio](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1917-maximum-average-pass-ratio) |
 | [2434-design-a-number-container-system](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2434-design-a-number-container-system) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
@@ -462,6 +464,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1770-minimum-deletions-to-make-character-frequencies-unique](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1770-minimum-deletions-to-make-character-frequencies-unique) |
 | [1829-maximum-units-on-a-truck](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1829-maximum-units-on-a-truck) |
 | [1874-form-array-by-concatenating-subarrays-of-another-array](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1874-form-array-by-concatenating-subarrays-of-another-array) |
+| [1917-maximum-average-pass-ratio](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1917-maximum-average-pass-ratio) |
 | [1938-minimum-operations-to-make-the-array-increasing](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1938-minimum-operations-to-make-the-array-increasing) |
 | [1961-maximum-ice-cream-bars](https://github.com/Gopalkushwaha1/Leetcode/tree/master/1961-maximum-ice-cream-bars) |
 | [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
