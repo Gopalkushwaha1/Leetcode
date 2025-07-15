@@ -356,6 +356,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2572-append-characters-to-string-to-make-subsequence) |
 | [2727-number-of-senior-citizens](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2727-number-of-senior-citizens) |
 | [2847-find-maximum-number-of-string-pairs](https://github.com/Gopalkushwaha1/Leetcode/tree/master/2847-find-maximum-number-of-string-pairs) |
+| [3396-valid-word](https://github.com/Gopalkushwaha1/Leetcode/tree/master/3396-valid-word) |
 | [3447-clear-digits](https://github.com/Gopalkushwaha1/Leetcode/tree/master/3447-clear-digits) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Gopalkushwaha1/Leetcode/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 ## Math
