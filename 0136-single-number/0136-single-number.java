@@ -1,14 +1,10 @@
 class Solution {
     public int singleNumber(int[] nums) {
-        HashSet<Integer> set = new HashSet<>() ; 
+        Arrays.sort(nums) ; 
 
-        for ( int ele : nums ) {
-            if(set.contains(ele)) {
-                set.remove(ele) ; 
-                continue ; 
-            }
-            set.add(ele) ; 
+        for ( int i = 1 ; i < nums.length ; i+=2 ) {
+            if(nums[i] != nums[i-1]) return nums[i-1] ; 
         }
-        return set.iterator().next(); 
+        return nums[nums.length-1] ; 
     }
 }
