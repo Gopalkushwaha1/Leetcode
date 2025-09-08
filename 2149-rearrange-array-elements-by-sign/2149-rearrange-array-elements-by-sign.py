@@ -4,20 +4,17 @@ class Solution(object):
         :type nums: List[int]
         :rtype: List[int]
         """
-        p = []
-        n = [] 
+        pos = 0 
+        neg = 1 
+        ans = [0] * len(nums) 
 
-        for i in  range(len(nums)) :
-            if nums[i] >= 0 :
-                p.append(nums[i])
+        for ele in nums :
+            if ele > 0 :
+                ans[pos] = ele 
+                pos += 2 
             else :
-                n.append(nums[i])
-        for i in range(len(nums)) :
-            if i % 2 == 0 :
-                nums[i] = p[i/2] 
-            else :
-                nums[i] = n[i/2] 
+                ans[neg] = ele 
+                neg += 2 
+        return ans         
 
-        return nums    
-
-        __import__("atexit").register(lambda: open("display_runtime.txt","w").write("0"))                     
+        
