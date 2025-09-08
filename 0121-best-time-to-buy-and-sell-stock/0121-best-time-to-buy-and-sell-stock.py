@@ -14,7 +14,7 @@ class Solution(object):
                 curr_min = prices[i]
                 curr_max = prices[i] 
             if prices[i] > curr_max :
-                ans = max(ans , prices[i] - curr_min) 
                 curr_max = prices[i] 
+                ans = max(ans , curr_max - curr_min)  
 
         return ans           
