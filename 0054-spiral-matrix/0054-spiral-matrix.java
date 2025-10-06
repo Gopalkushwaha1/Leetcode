@@ -1,32 +1,38 @@
 class Solution {
     public List<Integer> spiralOrder(int[][] matrix) {
-        List<Integer> list = new ArrayList<>() ; 
         int r = 0 , c = 0 ; 
-        int lr = matrix.length - 1 , lc = matrix[0].length - 1 ; 
+        int tr = matrix.length-1 , tc = matrix[0].length-1 ; 
+        List<Integer> ans = new ArrayList<>() ; 
 
-        while ( r <= lr && c <= lc ) {
+        while ( r <= tr && c <= tc ) {
 
-            // Left to right top 
-            for ( int col = r ; col <= lc ; col++ ) {
-                list.add(matrix[r][col]);
+            // Left to right move 
+            for ( int col = r ; col <= tc ; col++ ) {
+                ans.add(matrix[r][col]) ; 
             }
-            for ( int row = r + 1 ; row <= lr ; row++ ) {
-                list.add(matrix[row][lc]) ; 
-            }
-            if ( r < lr && c < lc ) {
-                for ( int col = lc-1 ; col >= c ; col-- ) {
-                list.add(matrix[lr][col]) ; 
-            }
-            for ( int row = lr-1 ; row > r ; row-- ) {
-                list.add(matrix[row][c]) ; 
-            }
+            
+            // Top to down 
+            for ( int row = r + 1 ; row <= tr ; row++ ) {
+                ans.add(matrix[row][tc]) ; 
             }
 
-            r++;
-            c++;
-            lr--;
-            lc--;
+            if ( r < tr && c < tc ) {
+                // Right to left 
+            for ( int col = tc - 1 ; col >= r ; col-- ) {
+                ans.add(matrix[tr][col]) ; 
+            }
+
+            // Down to top 
+            for ( int row = tr - 1 ; row > r ; row-- ) {
+                ans.add(matrix[row][r]) ; 
+            }
+            }
+
+            r++ ; 
+            c++ ; 
+            tr--;
+            tc--;
         }
-        return list;
+        return ans ; 
     }
 }
