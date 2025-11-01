@@ -16,23 +16,21 @@ class Solution {
             set.add(num) ; 
         }
 
-        ListNode dummy = new ListNode(0); 
+        ListNode dummy = new ListNode(-1) ; 
         ListNode curr = dummy ; 
-        ListNode next = head ; 
-
+        
         while ( head != null ) {
-            while(head != null && set.contains(head.val)) {
+            while ( head != null && set.contains(head.val)) {
                 head = head.next ; 
-                
             }
-            if( head != null ) {
-                ListNode newNode = new ListNode(head.val) ; 
-                curr.next = newNode ; 
-                curr = newNode ; 
+            if(head != null ) {
+                curr.next = head ; 
+                curr = head ; 
                 head = head.next ; 
             }
         }
+        if ( head == curr ) return dummy.next ; 
+        curr.next = null ; 
         return dummy.next ; 
-
     }
 }
