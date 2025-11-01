@@ -32,9 +32,6 @@ class Solution {
                 head = head.next ; 
             }
         }
-        if ( head != null ) {
-            head = null ; 
-        }
         return dummy.next ; 
 
     }
