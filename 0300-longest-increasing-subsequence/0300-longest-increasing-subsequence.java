@@ -1,21 +1,22 @@
 class Solution {
-    public int lengthOfLIS(int[] nums) {
-        int len = nums.length ; 
-        int[][] dp = new int[len+1][len+1] ; 
-
-        for ( int i = len -1 ; i >= 0 ; i-- ) {
-            for ( int j = i - 1 ; j >= -1 ; j-- ) {
-                int take = 0 ; 
-
-                if ( j == -1 || nums[i] > nums[j] ) {
-                    take = 1 + dp[i+1][i+1] ; 
-                    
-                }
-                int skip = dp[i+1][j+1] ;
-
-                dp[i][j+1] = Math.max(take , skip ) ;  
-            }
+    public int ans(int[] nums , int curr , int prev , int[][] dp ) {
+        if ( curr == nums.length ) {
+            return 0 ; 
         }
-        return dp[0][0] ; 
+        if( dp[curr][prev+1] != -1 ) return dp[curr][prev+1] ; 
+        int skip = ans(nums , curr + 1 , prev , dp ) ; 
+        int take = 0 ; 
+        if( prev == -1 || nums[curr] > nums[prev]) {
+            take = 1 + ans(nums , curr+1 , curr , dp ) ; 
+        }
+
+        return dp[curr][prev+1] =  Math.max(skip , take) ; 
+    }
+    public int lengthOfLIS(int[] nums) {
+        int[][] dp = new int[nums.length][nums.length+1] ; 
+        for ( int i = 0 ; i < nums.length ; i++ ) {
+            Arrays.fill(dp[i] , -1) ;
+        }
+        return ans(nums , 0 , -1 , dp ) ; 
     }
 }
