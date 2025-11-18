@@ -9,13 +9,13 @@ class Solution {
             result.add(new ArrayList<>(check)) ;  
             return ; 
         }
-
+        ans(arr , target , sum , idx+1 , result , check ) ;
         if ( arr[idx] + sum <= target ) {
             check.add(arr[idx]) ; 
             ans(arr , target , sum + arr[idx] , idx , result , check ) ;
             check.remove(check.size() - 1 ) ;  
         }
-        ans(arr , target , sum , idx+1 , result , check ) ; 
+         
     }
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
         Arrays.sort(candidates) ;
