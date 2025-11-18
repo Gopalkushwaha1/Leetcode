@@ -1,7 +1,7 @@
 class Solution {
     public void ans(int[] arr , int target , int sum , int idx , List<List<Integer>> result , List<Integer> check ) {
         // base case 
-        if( idx == arr.length || sum > target ) {
+        if( idx == arr.length ) {
             return ; 
         }
 
@@ -10,10 +10,12 @@ class Solution {
             return ; 
         }
 
-        ans(arr , target , sum , idx+1 , result , check ) ; 
-        List<Integer> list = new ArrayList<>(check) ; 
-        list.add(arr[idx]) ; 
-        ans(arr , target , sum + arr[idx] , idx , result , list ) ; 
+        if ( arr[idx] + sum <= target ) {
+            ans(arr , target , sum , idx+1 , result , check ) ; 
+            List<Integer> list = new ArrayList<>(check) ; 
+            list.add(arr[idx]) ; 
+            ans(arr , target , sum + arr[idx] , idx , result , list ) ; 
+        }
     }
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
         Arrays.sort(candidates) ;
