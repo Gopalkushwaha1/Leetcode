@@ -6,15 +6,15 @@ class Solution {
         }
 
         if ( sum == target ) {
-            result.add(check) ; 
+            result.add(new ArrayList<>(check)) ;  
             return ; 
         }
 
         if ( arr[idx] + sum <= target ) {
             ans(arr , target , sum , idx+1 , result , check ) ; 
-            List<Integer> list = new ArrayList<>(check) ; 
-            list.add(arr[idx]) ; 
-            ans(arr , target , sum + arr[idx] , idx , result , list ) ; 
+            check.add(arr[idx]) ; 
+            ans(arr , target , sum + arr[idx] , idx , result , check ) ;
+            check.remove(check.size() - 1 ) ;  
         }
     }
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
