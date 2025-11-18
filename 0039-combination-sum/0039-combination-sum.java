@@ -1,7 +1,7 @@
 class Solution {
     public void ans(int[] arr , int target , int sum , int idx , List<List<Integer>> result , List<Integer> check ) {
         // base case 
-        if( idx == arr.length ) {
+        if( idx == arr.length || arr[idx] > target ) {
             return ; 
         }
 
