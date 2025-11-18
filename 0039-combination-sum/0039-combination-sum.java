@@ -1,14 +1,17 @@
 class Solution {
     public void ans(int[] arr , int target , int sum , int idx , List<List<Integer>> result , List<Integer> check ) {
-        // base case 
-        if( idx == arr.length || arr[idx] > target  ) {
-            return ; 
-        }
 
         if ( sum == target ) {
             result.add(new ArrayList<>(check)) ;  
             return ; 
         }
+        
+        // base case 
+        if( idx == arr.length || arr[idx] > target  ) {
+            return ; 
+        }
+
+        
         ans(arr , target , sum , idx+1 , result , check ) ;
         if ( arr[idx] + sum <= target ) {
             check.add(arr[idx]) ; 
