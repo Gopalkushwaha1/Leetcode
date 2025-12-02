@@ -10,10 +10,10 @@ class Solution {
         }  
 
         for ( int ele : map.values() ) {
-            long edge = ((long) ele * (ele-1)) / 2 ; 
-            ans = (ans + edge*sum) % mod ; 
-            sum = ( sum + edge) % mod ; 
+            long edge = ((long) ele * (ele-1L)) / 2L ; 
+            ans = (ans + edge*sum) ; 
+            sum = ( sum + edge); 
         }
-        return (int)ans ; 
+        return (int)(ans %mod) ; 
     }
 }
