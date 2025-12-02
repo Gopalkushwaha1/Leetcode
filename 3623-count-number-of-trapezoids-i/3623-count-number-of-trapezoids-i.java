@@ -1,7 +1,7 @@
 class Solution {
+    static final int mod = 1_000_000_007 ;
     public int countTrapezoids(int[][] points) {
-        HashMap<Integer , Integer> map = new HashMap<>() ; 
-        int mod = 1_000_000_007 ; 
+        HashMap<Integer , Integer> map = new HashMap<>() ;  
         long ans = 0 ; 
         long sum = 0 ;
 
