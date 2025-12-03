@@ -20,21 +20,26 @@ class Solution {
         }
         return true ; 
     }
-    public int ans( String[] word , int prev , int curr ) {
+    public int ans( String[] word , int prev , int curr , int[][] dp ) {
         if ( curr == word.length ) {
             return 0 ; 
         }
-        int skip = ans(word , prev , curr+1) ; 
+        if(dp[prev+1][curr] != -1 ) return dp[prev+1][curr] ; 
+        int skip = ans(word , prev , curr+1 , dp ) ; 
         int take = 0 ; 
 
         if ( prev == -1 || isValid(word[prev] , word[curr])) {
-            take = 1 + ans(word , curr , curr + 1 ) ; 
+            take = 1 + ans(word , curr , curr + 1 , dp ) ; 
         }
 
-        return Math.max(skip , take ) ; 
+        return dp[prev+1][curr] =  Math.max(skip , take ) ; 
     }
     public int longestStrChain(String[] words) {
         Arrays.sort(words , ( a,b) -> a.length() - b.length()) ; 
-        return ans(words , -1 , 0 ) ; 
+        int[][] dp = new int[words.length][words.length] ; 
+        for ( int i = 0 ; i < words.length ; i++ ) {
+            Arrays.fill(dp[i] , -1 ) ; 
+        }
+        return ans(words , -1 , 0 , dp ) ; 
     }
 }
