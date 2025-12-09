@@ -27,8 +27,7 @@ class Solution {
             }
         }
 
-        for ( int i = 0 ; i < nums.length ; i++ ) {
-            System.out.println("maxLen -> " + maxLen[i] + " Count -> " + count[i]) ; 
+        for ( int i = 0 ; i < nums.length ; i++ ) { 
             if(maxLen[i] == len ) {
                 ans += count[i] ; 
             }
