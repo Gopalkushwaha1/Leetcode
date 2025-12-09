@@ -7,15 +7,14 @@ class Solution {
         Arrays.fill(maxLen , 1) ; 
         Arrays.fill(count , 1 ) ; 
 
-        for ( int i = 1 ; i < nums.length ; i++ ) {
+        for ( int i = 0 ; i < nums.length ; i++ ) {
             for ( int j = 0 ; j < i ; j++ ) {
+                if ( nums[i] > nums[j] && maxLen[j] + 1 > maxLen[i]) {
+                    maxLen[i] = maxLen[j] + 1 ;
+                    count[i] = 0 ; 
+                }
                 if ( maxLen[i] == 1 + maxLen[j]) {
                     count[i] += count[j] ; 
-                    continue ; 
-                }
-                if ( nums[i] > nums[j]) {
-                    maxLen[i] = Math.max(maxLen[i] , 1 + maxLen[j]) ; 
-                    count[i] = count[j] ; 
                 }
 
             }
