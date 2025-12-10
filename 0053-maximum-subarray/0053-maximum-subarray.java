@@ -1,17 +1,16 @@
 class Solution {
     public int maxSubArray(int[] nums) {
-        int max = nums[0] ; 
-        int localmax = 0 ; 
+        int maxSum = nums[0] ; 
+        int localSum = nums[0] ; 
 
-        for ( int i = 0 ; i < nums.length ; i++ ) {
-                localmax += nums[i] ; 
-                if ( localmax > max ) {
-                    max = localmax ; 
-                }
-                if ( localmax < 0 ) {
-                    localmax = 0 ; 
-                } 
+        for ( int i = 1 ; i < nums.length ; i++  ) {
+            int ele = nums[i] ; 
+            localSum += ele ; 
+            if ( maxSum < localSum ) {
+                maxSum = localSum ; 
+            }
+            if ( localSum < 0 ) localSum = 0 ; 
         }
-        return max ; 
+        return maxSum ; 
     }
 }
