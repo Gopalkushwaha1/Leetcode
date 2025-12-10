@@ -1,18 +1,22 @@
 class Solution {
-    public static int ans ( int[] nums , int start , int end ) {
-        int prevMax = 0 , max = 0 ; 
-
-        for ( int i = start ; i <= end ; i++ ) {
-            int temp = Math.max(max , prevMax + nums[i]) ; 
-            prevMax = max ; 
-            max = temp ; 
+    public int maxRob(int[] nums , int idx , int len , int[] dp  ) {
+        if ( idx >= len  ) {
+            return 0 ; 
         }
+        if ( dp[idx] != -1 ) return dp[idx] ; 
 
-        return max ; 
+        int skip = maxRob(nums , idx + 1 , len  , dp  ) ; 
+        int take = nums[idx] + maxRob(nums , idx + 2 , len , dp  ) ; 
+
+        return dp[idx] =  Math.max(skip , take ) ; 
     }
     public int rob(int[] nums) {
-        int len = nums.length ; 
-        if ( len == 1 ) return nums[0] ; 
-        return Math.max(ans(nums,0,len-2) , ans(nums,1,len-1) ) ; 
+        int[] dp = new int[nums.length ] ; 
+        Arrays.fill(dp , -1 ) ; 
+        int zeroTake = maxRob(nums , 0 , nums.length - 1 , dp ) ; 
+        Arrays.fill(dp , -1 ) ; 
+        int zeroNotTake = maxRob(nums , 1 , nums.length , dp ) ; 
+
+        return Math.max(zeroTake , zeroNotTake ) ;  
     }
 }
