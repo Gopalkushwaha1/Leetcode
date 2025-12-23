@@ -1,20 +1,37 @@
 class Solution {
-    public long coinSol(int i , int[] c, int a , long[][] dp) {
-       if(i == c.length){
-         return (a != 0) ? Integer.MAX_VALUE : 0;
-       } 
-       if(dp[i][a] != -1)return dp[i][a] ;
-       long skip = coinSol(i+1,c,a,dp);
-       if(a - c[i] < 0 )return dp[i][a] = skip;
-       long take = 1 + coinSol(i , c, a-c[i] , dp);
-       return dp[i][a] = Math.min(skip,take);
+    public int ans(int[] coins , int amount ,int idx , int[][] dp ) {
+        if( amount == 0 ) return 0 ; 
+        if ( idx < 0 || amount < 0 ) return Integer.MAX_VALUE  ; 
+
+        if ( dp[idx][amount] != -1 ) return dp[idx][amount] ; 
+
+        int skip = ans(coins , amount , idx-1 , dp ) ;
+        int take = Integer.MAX_VALUE ;  
+        int res = ans(coins , amount - coins[idx] , idx , dp ) ;
+        if(res != Integer.MAX_VALUE ) {
+            res = res + 1 ; 
+        } 
+
+        return dp[idx][amount] =  Math.min(res , skip ) ; 
+
+
     }
-    public int coinChange(int[] coins, int amount) {
-        long[][] dp = new long[coins.length][amount+1];
-        for(int i = 0 ;  i <coins.length ; i++){
-            Arrays.fill(dp[i],-1);
+    public int coinChange(int[] coins, int amount) { 
+        int[][] dp = new int[coins.length][amount+1] ; 
+        for ( int i = 0  ; i < coins.length ; i++ ) {
+            Arrays.fill(dp[i] , -1 ) ; 
         }
-        int ans = (int)coinSol(0,coins,amount,dp);
-        return (ans != Integer.MAX_VALUE) ? ans : -1 ; 
+       int result = ans( coins , amount , coins.length -1 , dp   ) ; 
+       return result == Integer.MAX_VALUE ? -1 : result ; 
     }
 }
+
+// My Approch 
+// keep one count to coun the coin that i use 
+// step 1 : Sort the array for gready approch 
+// step 2 : Start from last idx 
+// step 3 : if amount is >= coint of that idx 
+//        -->> just reduce the amount to that idx coint keep at same idx 
+//        -->> if amount is less than curr idx coin decrese the idx by 1 
+// if idx < 0 then return -1
+// return min coin use 
