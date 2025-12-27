@@ -1,7 +1,8 @@
-class Solution:
-    def sortColors(self, nums: List[int]) -> None:
+class Solution(object):
+    def sortColors(self, nums):
         """
-        Do not return anything, modify nums in-place instead.
+        :type nums: List[int]
+        :rtype: None Do not return anything, modify nums in-place instead.
         """
         countZero = 0 
         countOne = 0 
@@ -29,4 +30,4 @@ class Solution:
         while countTwo != 0 :
             nums[i] = 2 
             i = i+1 
-            countTwo = countTwo - 1                          
+            countTwo = countTwo - 1
