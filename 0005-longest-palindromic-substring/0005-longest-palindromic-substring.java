@@ -1,37 +1,30 @@
 class Solution {
-    public boolean isPalindrom(String s , int i , int j , int[][] check) {
-        if ( i >= j ) {
-           return true ; 
-        } 
-
-        if ( check[i][j] != -1 ) return check[i][j] == 1 ; 
-
-        if(s.charAt(i) == s.charAt(j) && isPalindrom(s,i+1,j-1,check)) {
-            return (check[i][j] = 1) == 1 ; 
+    public boolean isValid(String str , int s , int e , boolean[][] dp ) {
+        if(dp[s][e] == true ) return true ; 
+        while ( s < e ) {
+            if(str.charAt(s) == str.charAt(e)) {
+                s++ ; 
+                e-- ; 
+            }
+            else {
+                return false ; 
+            }
         }
-
-        return (check[i][j] = 0) == 1 ; 
+        return dp[s][e] =  true ; 
     }
-
     public String longestPalindrome(String s) {
-        int startIdx = 0 ; 
-        int palindromicMaxLen = 0 ; 
-        int[][] check = new int[s.length()][s.length()];
-        for ( int i = 0 ; i < s.length() ; i++ ) {
-            Arrays.fill(check[i] , -1 ) ; 
-        }
+        int maxLen = 0 ; 
+        int idx = -1 ; 
+        boolean[][] dp = new boolean[s.length()][s.length()] ; 
 
-        for (int i = 0 ; i < s.length() ; i++ ) {
+        for ( int i = 0 ; i < s.length() ; i++ ) {
             for ( int j = i ; j < s.length() ; j++ ) {
-                if(isPalindrom(s , i , j , check) && palindromicMaxLen < j - i + 1){
-                    startIdx = i ; 
-                    palindromicMaxLen = j - i + 1 ; 
+                if(isValid(s,i,j, dp) && maxLen < j - i + 1) {
+                    maxLen = j - i + 1 ; 
+                    idx = i ; 
                 }
             }
         }
-
-        String ans = s.substring(startIdx,startIdx+palindromicMaxLen) ; 
-
-        return ans ; 
+        return s.substring(idx , idx+maxLen ) ; 
     }
 }
