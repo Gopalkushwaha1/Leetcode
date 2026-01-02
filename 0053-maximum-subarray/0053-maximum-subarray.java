@@ -1,17 +1,14 @@
 class Solution {
     public int maxSubArray(int[] nums) {
-        int maxSum = nums[0] ; 
-        int localSum = nums[0] ; 
+        int sum = nums[0] ; 
+        int localSum = 0 ; 
 
-        for ( int i = 1 ; i < nums.length ; i++  ) {
-            int ele = nums[i] ;
-            if ( localSum < 0 ) localSum = 0 ; 
+        for ( int ele : nums ) {
             localSum += ele ; 
-            if ( maxSum < localSum ) {
-                maxSum = localSum ; 
-            }
-            
+            sum = Math.max(localSum , sum ) ; 
+            if ( localSum < 0 ) localSum = 0 ; 
         }
-        return maxSum ; 
+
+        return sum ; 
     }
 }
