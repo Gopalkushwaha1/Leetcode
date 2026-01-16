@@ -1,17 +1,14 @@
 class Solution {
-    public int ans(int n , int[] dp ) {
-        if ( n <= 3 ) return n ;
-        if ( dp[n] != -1 ) return dp[n] ; 
-        return dp[n] =  ans(n-1 , dp ) + ans(n-2 , dp ) ; 
-    }
-    public int climbStairs(int n) { 
-        if ( n <= 3 ) return n ;
-        int[] dp = new int[n+1] ; 
-        dp[0] = 1 ; 
-        dp[1] = 1 ; 
-        dp[2] = 1 ; 
-        Arrays.fill(dp , -1) ; 
-        ans(n , dp ) ; 
-        return dp[n] ; 
+    public int climbStairs(int n) {
+        if( n <= 3 ) return n ; 
+        int[] ans = new int[n+1] ; 
+        ans[2] = 2 ; 
+        ans[3] = 3 ; 
+
+        for ( int i = 4 ; i < n+1 ; i++ ) {
+            ans[i] = ans[i-1] + ans[i-2] ; 
+        }
+
+        return ans[n] ; 
     }
 }
