@@ -15,14 +15,13 @@ public class Solution {
 
         while ( headA != null ) {
             set.add(headA) ; 
-            headA = headA.next ;  
-        }
-        while ( headB != null ) {
-            if ( set.contains(headB)) return headB ; 
-            set.add(headB) ; 
-            headB = headB.next ;  
+            headA = headA.next ; 
         }
 
+        while( headB != null ) {
+            if(set.contains(headB)) return headB ; 
+            headB = headB.next ; 
+        }
         return null ; 
     }
 }
