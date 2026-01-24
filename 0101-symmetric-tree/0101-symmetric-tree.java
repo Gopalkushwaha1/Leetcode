@@ -14,17 +14,15 @@
  * }
  */
 class Solution {
-    public boolean ans(TreeNode left , TreeNode right) {
-        if( left == null && right == null ) return true ; 
-        if(left == null || right == null ) return false ; 
-        if ( left.val != right.val ) return false ; 
-        
-        boolean l = ans(left.left , right.right) ; 
-        boolean r = ans(left.right , right.left ) ; 
+    public boolean check(TreeNode left , TreeNode right ) {
+        if(left == null && right == null ) return true ; 
+        if (left == null || right == null ) return false ; 
+        if(left.val != right.val) return false ; 
 
-        return l && r ; 
+        return check(left.left , right.right) && check(left.right , right.left) ; 
     }
     public boolean isSymmetric(TreeNode root) {
-        return ans(root.left , root.right) ; 
+        return check(root.left , root.right) ; 
+
     }
 }
