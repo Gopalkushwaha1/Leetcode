@@ -1,25 +1,38 @@
 class Solution {
+    public boolean isValid(String str1 , String str2 ) {
+        if(str1.length() + 1 != str2.length()) return false ; 
+        int i = 0 ; 
+        int j = 0 ; 
+
+        while ( i < str1.length() && j < str2.length() ) {
+            if(str1.charAt(i) != str2.charAt(j))j++ ;
+            else{
+                i++ ; 
+                j++ ; 
+            }
+        } 
+        return i+1 == j || i == j  ; 
+    }
     public int longestStrChain(String[] words) {
-        Arrays.sort(words, (a, b) -> a.length() - b.length());
-        Map<String, Integer> dp = new HashMap<>();
+        Arrays.sort(words , (a,b) -> {
+            return a.length() - b.length() ; 
+        }) ; 
+        int[] dp = new int[words.length] ; 
         
-        int max = 1;
-        
-        for (String word : words) {
-            int best = 1;  
-            
-            for (int i = 0; i < word.length(); i++) {
-                String prev = word.substring(0, i) + word.substring(i + 1);
-                
-                if (dp.containsKey(prev)) {
-                    best = Math.max(best, dp.get(prev) + 1);
+
+        for ( int i = 0 ; i < words.length ; i++ ) {
+            for ( int j = 0 ; j < i ; j++ ) {
+                if(isValid(words[j] , words[i])) {
+                    dp[i] = Math.max(dp[i] , dp[j]+1) ; 
                 }
             }
-            
-            dp.put(word, best);
-            max = Math.max(max, best);
         }
-        
-        return max;
+
+        int max = 0 ; 
+        for ( int ele : dp ) {
+            if(ele > max ) max = ele ; 
+        }
+
+        return max+1 ; 
     }
 }
