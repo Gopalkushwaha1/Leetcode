@@ -6,7 +6,7 @@ class Solution {
         int count = Integer.MAX_VALUE ; 
 
         while ( j < nums.length && i <= j ) {
-            while ( j < nums.length && nums[i]*k >= nums[j])j++ ; 
+            while ( j < nums.length && (long)nums[i]*k >= nums[j])j++ ; 
             count = Math.min(count , i + (nums.length - j ) ) ; 
             i++ ; 
         }
