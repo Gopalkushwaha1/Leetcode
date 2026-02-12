@@ -11,6 +11,7 @@ class Solution {
         int len = s.length() ;  
 
         for ( int i = 0 ; i < len ; i++ ) {
+            if(maxLen >= len - i ) return maxLen ; 
             int[] freq = new int[26] ; 
             for ( int j = i ; j < len ; j++ ) {
                 freq[s.charAt(j) - 'a']++ ; 
