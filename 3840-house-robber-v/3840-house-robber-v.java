@@ -21,6 +21,6 @@ class Solution {
             }
             else dp[i] = Math.max(nums[i] + dp[i-1] , nums[i] + dp[i-2]) ; 
         }
-        return Math.max(dp[nums.length - 1 ],dp[nums.length - 2 ]) ; 
+        return dp[nums.length - 1 ] ; 
     }
 }
