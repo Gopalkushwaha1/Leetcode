@@ -1,14 +1,22 @@
 class Solution {
     public boolean hasAlternatingBits(int n) {
-        // Change to binary and store it 
+        if( n== 1 ) return true ; 
+        int prev = n % 2 ; 
+        int rem = -1 ; 
+        n /= 2 ; 
 
-        String binary = Integer.toBinaryString(n) ; 
+        while ( n != 1 ) {
+            // find curr bit 
+            rem = n % 2 ; 
+            // compare check 
+            if(rem == prev ) return false ; 
+            // update prev 
+            prev = rem ; 
 
-        // Travel to binary String check alternate if equal then false 
-
-        for ( int i = 1 ; i < binary.length() ; i++ ) {
-            if(binary.charAt(i) == binary.charAt(i-1)) return false ; 
+            n /= 2 ; 
         }
+
+        if(prev == n ) return false ; 
 
         return true ; 
     }
