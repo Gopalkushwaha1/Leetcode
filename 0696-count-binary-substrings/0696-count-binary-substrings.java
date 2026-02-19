@@ -1,20 +1,22 @@
 class Solution {
     public int countBinarySubstrings(String s) {
-        // Define prerequisite variable
-        int count = 0 , currGroup = 1 , prevGroup = 0 ; 
+        // take count , prev and curr Group 
 
-        // find diff group ( continues 0 or 1 )    
+        int count = 0 ; 
+        int currGroup = 1 ; 
+        int prevGroup = 0 ; 
+
+        // find the group 
         for ( int i = 1 ; i < s.length() ; i++ ) {
-            // if same value update curr Group 
-            if ( s.charAt(i) == s.charAt(i-1) ) currGroup++ ; 
-            // update count 
-            else {
-                count += Math.min ( prevGroup , currGroup ) ;
+            // if prev char equal curr char increase curr group size 
+            if(s.charAt(i) == s.charAt(i-1)) currGroup++ ; 
+            else { // update the count and currGroup 
+                count += Math.min(currGroup , prevGroup) ; 
                 prevGroup = currGroup ; 
                 currGroup = 1 ; 
             }
-        } 
+        }
 
-        return count + Math.min( prevGroup , currGroup ) ; 
+        return count + Math.min(currGroup , prevGroup) ; 
     }
 }
