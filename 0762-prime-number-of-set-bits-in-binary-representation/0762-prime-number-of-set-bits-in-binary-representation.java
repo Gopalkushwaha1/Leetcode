@@ -1,20 +1,9 @@
 class Solution {
-    public boolean isPrime(String str ) {
-        int count = 0 ; 
+    public boolean isPrime(int totalBit) {
+        if ( totalBit < 2 ) return false ; 
 
-        // count total 1 in binary 
-        for ( char ch : str.toCharArray()) {
-            if(ch == '1') count++ ; 
-        }
-
-        // count < 2 not prime 
-
-        if(count < 2 ) return false ; 
-
-        // check prime 
-
-        for ( int i = 2 ; i < count ; i++ ) {
-            if(count % i == 0 ) return false ; 
+        for ( int i = 2 ; i * i <= totalBit ; i++ ) {
+            if(totalBit % i == 0 ) return false ; 
         }
 
         return true ; 
@@ -28,10 +17,10 @@ class Solution {
         for ( int i = left ; i <= right ; i++ ) {
             // Convert into binary String 
 
-            String str = Integer.toBinaryString(i) ; 
+            int bit = Integer.bitCount(i) ; // give total 1 bit 
 
             // check if prime 
-            if(isPrime(str)) {
+            if(isPrime(bit)) {
                 count++ ; 
             } 
         }
