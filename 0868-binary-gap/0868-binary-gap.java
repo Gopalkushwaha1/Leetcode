@@ -1,25 +1,22 @@
 class Solution {
     public int binaryGap(int n) {
-        // change n into binary number 
+        // change n into binary String 
 
         String binary = Integer.toBinaryString(n) ; 
 
-        // take curr and prev 
+        // take curr and prev idx 
         int currIdx = 0 ; 
         int prevIdx = 0 ; 
-        int maxDistance = 0 ; 
+        int maxDistance = 0 ;
 
-        // travel 0 ..........n and find the distance 
-
-        while ( currIdx < binary.length() ) {
-            
-            // if currIdx is 1 then find the maxDistance and update the prev 
+        while ( currIdx < binary.length()) {
             if(binary.charAt(currIdx) == '1') {
                 maxDistance = Math.max(maxDistance , currIdx - prevIdx) ; 
+                // update the prev to curr 
                 prevIdx = currIdx ; 
             }
 
-            // update currIdx 
+            // update currIddx 
             currIdx++ ; 
         }
 
