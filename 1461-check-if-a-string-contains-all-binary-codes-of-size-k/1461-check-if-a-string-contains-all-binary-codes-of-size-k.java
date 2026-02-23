@@ -9,7 +9,7 @@ class Solution {
 
         // travel k ...... n 
         
-        for ( int i = k ; i < n ; i++ ) {
+        for ( int i = k ; i <= n ; i++ ) {
             set.add(s.substring(j,i)) ; 
             j++ ; 
 
