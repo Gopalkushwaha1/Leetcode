@@ -14,36 +14,19 @@
  * }
  */
 class Solution {
-    static int ans = 0 ; 
-    public void find(TreeNode root , StringBuilder sb ) {
-
-        // root is null return 
-
-        if(root == null ) return ; 
-
-        // add curr bit to sb 
-        sb.append(root.val) ; 
-
-        // last node ( leaf node ) add binary to decimal to ans 
+    public int find(TreeNode root , int ans ) {
+        if(root == null ) {
+            return 0 ; 
+        }
+        ans = ans * 2 + root.val ; 
         if(root.left == null && root.right == null ) {
-            int bit = Integer.parseInt(sb.toString() , 2 ) ; 
-            ans += bit ; 
-        }
-        else {
-            find(root.left , sb ) ; 
-            find(root.right , sb ) ; 
+            return ans ; 
         }
 
-        sb.deleteCharAt(sb.length() - 1 ) ; 
+        return find(root.left , ans ) + find(root.right , ans ) ; 
+
     }
     public int sumRootToLeaf(TreeNode root) {
-        ans = 0 ; 
-        StringBuilder sb = new StringBuilder() ; 
-
-        // find all binary number 
-        find(root , sb ) ; 
-
-        // return ans 
-        return ans ; 
+        return find(root , 0 ) ; 
     }
 }
