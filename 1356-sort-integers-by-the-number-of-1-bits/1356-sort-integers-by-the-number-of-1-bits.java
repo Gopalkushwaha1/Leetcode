@@ -1,38 +1,23 @@
 class Solution {
-    public void swap(int[] arr , int minIdx , int i ) {
-        int temp = arr[i] ; 
-        arr[i] = arr[minIdx] ; 
-        arr[minIdx] = temp ; 
-    }
     public int[] sortByBits(int[] arr) {
-        // Any sorting algo 
-
-        // selection sort 
+        Integer[] dummyArray = new Integer[arr.length] ; 
 
         for ( int i = 0 ; i < arr.length ; i++ ) {
-            int minIdx = i ; 
+            dummyArray[i] = arr[i] ; 
+        }
+        Arrays.sort(dummyArray , (a,b) -> {
+            int prev = Integer.bitCount(a) ; 
+            int curr = Integer.bitCount(b) ;
 
-            for ( int j = i + 1 ; j < arr.length ; j++ ) {
+            if ( prev == curr ) return a - b ; 
 
-                // check the curr ele bit is less than prev ele bit ; 
-                int currBit = Integer.bitCount(arr[j]) ; 
-                int prevBit = Integer.bitCount(arr[minIdx]) ; 
+            return prev - curr ;  
+        }) ; 
 
-                // compare 
-                if(currBit < prevBit) {
-                    minIdx = j ; 
-                }
-                if(currBit == prevBit ) {
-                    if(arr[j] < arr[minIdx]) {
-                        minIdx = j ; 
-                    }
-                }
-            }
-            // swap 
-            swap(arr , i , minIdx ) ; 
+        for ( int i = 0 ; i < arr.length ; i++ ) {
+            arr[i] = dummyArray[i] ; 
         }
 
-        // return arr
         return arr ; 
     }
 }
