@@ -1,41 +1,28 @@
 class Solution {
-    public char findKthBit(int n, int k) {
-        // Take StringBuilder for ans 
+    public char ans(int n , int k ) {
+        // base case 
+        if(n == 1 ) return '0' ; 
 
-        StringBuilder sb = new StringBuilder("0") ;    // s1 -> 0 
+        // find total len
+        int totalLen = (1<<n) - 1 ; 
+        int mid = (totalLen/2) + 1 ; 
 
-        n-- ; 
+        // if mid == k return 1 
+        if(mid == k ) return '1' ; 
 
-        while ( n > 0 ) {
-            // create new sb 
-            // store prev sb and append 1 then append rev(invert(prev sb)) 
-
-            StringBuilder sb2 = new StringBuilder(sb) ; 
-            sb2.append("1") ; 
-
-            // for reverse we travel right to left 
-            // for invert 
-            //     -> if 0 then add 1 
-            //     -> if 1 then add 0 
-
-            for ( int i = sb.length() - 1 ; i >= 0 ; i-- ) {
-                char ch = sb.charAt(i) ; 
-
-                // invert 
-                if(ch == '0') {
-                    sb2.append("1") ; 
-                }
-                else {
-                    sb2.append("0") ; 
-                }
-            }
-
-            sb = sb2 ; 
-            n-- ; 
+        // k < mid -> go left side 
+        if(k < mid ) {
+            return ans(n-1 , k ) ; 
         }
 
-        // return kth idx but 1 based idx k-1 
+        // find new k
+        int newLen = totalLen - k + 1 ; 
+        char ch = ans(n-1 , newLen ) ; 
 
-        return sb.charAt(k-1) ; 
+        // invert 
+        return ch == '0' ? '1' : '0' ; 
+    }
+    public char findKthBit(int n, int k) {
+        return ans(n , k ) ; 
     }
 }
