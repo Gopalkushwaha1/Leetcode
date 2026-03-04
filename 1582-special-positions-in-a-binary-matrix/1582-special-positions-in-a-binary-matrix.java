@@ -1,43 +1,38 @@
 class Solution {
     public int numSpecial(int[][] mat) {
-        // take count and len row and col 
+        // take count and rowCount colCount 
 
-        int count = 0 ;
+        int count = 0 ; 
         int row = mat.length ; 
         int col = mat[0].length ; 
 
-        // travel each cell 
+        // row count store 
+        // col count store 
+        int[] rowCount = new int[row] ; 
+        int[] colCount = new int[col] ; 
+
+
+        // fill row count and col count 
 
         for ( int i = 0 ; i < row ; i++ ) {
             for ( int j = 0 ; j < col ; j++ ) {
-                // check if 1 
+                if(mat[i][j] == 1 ) {
+                    rowCount[i]++ ; 
+                    colCount[j]++ ; 
+                }
+            }
+        }
 
-                // check all row only 1 -> 1 
-                // check all col only 1 -> 1 
+        // travel each cell and check 
 
-                if( mat[i][j] == 1 ) {
-                    // localCount 
-                    int localCount = 0 ; 
-                    for ( int k = 0 ; k < col ; k++ ) {
-                        if(mat[i][k] == 1 ) {
-                            localCount++ ; 
-                        }
-                        if(localCount > 1 ) break ; 
-                    }
-                    if(localCount != 1 ) break ; 
-                    localCount = 0 ;
-
-                    for ( int l = 0 ; l < row ; l++ ) {
-                        if(mat[l][j] == 1 ) {
-                            localCount++ ; 
-                        }
-                        if(localCount > 1 ) break ; 
-                    }
-                    if(localCount != 1 ) break ; 
+        for ( int i = 0 ; i < row ; i++ ) {
+            for ( int j = 0 ; j < col ; j++ ) {
+                if(mat[i][j] == 1 && rowCount[i] == 1 && colCount[j] == 1  ) {
                     count++ ; 
                 }
             }
         }
+
         return count ; 
     }
 }
