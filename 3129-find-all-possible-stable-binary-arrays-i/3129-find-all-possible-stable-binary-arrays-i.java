@@ -20,12 +20,12 @@ class Solution {
             if(curr == 0 ) {
                 // check vaild limit 
                 if(count + 1 <= limit ) {
-                    ways += find(zeroLeft - 1 , oneLeft , 0 , count+1 , limit ) % mod ; 
+                    ways = (ways +  find(zeroLeft - 1 , oneLeft , 0 , count+1 , limit )) % mod ; 
                 }
             }
             else {
                 // when zero first time came 
-                ways += find(zeroLeft-1 , oneLeft , 0  , 1 , limit ) % mod  ;    
+                ways = (ways +  find(zeroLeft-1 , oneLeft , 0  , 1 , limit ) ) % mod  ;    
             }
         }
 
@@ -37,12 +37,12 @@ class Solution {
             if(curr == 1 ) {
                 // check valid 
                 if(count + 1 <= limit ) {
-                    ways += find(zeroLeft , oneLeft-1 , 1 , count+1 , limit ) % mod  ; 
+                    ways = (ways + find(zeroLeft , oneLeft-1 , 1 , count+1 , limit) ) % mod  ; 
                 }
             }
             else {
                 // one came first time 
-                ways += find(zeroLeft , oneLeft-1 , 1 , 1 , limit )%mod ; 
+                ways = (ways  + find(zeroLeft , oneLeft-1 , 1 , 1 , limit) )%mod ; 
             }
         }
 
@@ -68,13 +68,13 @@ class Solution {
 
         // call for 0 
         if(zero > 0 ) {
-            ways += find(zero-1 , one , 0 , 1 , limit ) % mod ;
+            ways = (ways +  find(zero-1 , one , 0 , 1 , limit )) % mod ;
         }
 
         // call for 1 
 
         if(one > 0 ) {
-            ways += find(zero , one - 1 , 1 , 1 , limit ) % mod  ; 
+            ways = (ways +  find(zero , one - 1 , 1 , 1 , limit )) % mod  ; 
         }
 
         // return 
