@@ -1,83 +1,57 @@
 class Solution {
-    static int[][][][] dp ; 
-    static int mod = 1_000_000_007 ; 
-    public int find(int zeroLeft , int oneLeft , int curr , int count , int limit ) {
 
-        // if zeroCount && one Left == 0 then 1 way we get
+    static int MOD = 1_000_000_007;
+    long[][][] dp;
+    int limit;
 
-        if(zeroLeft == 0 && oneLeft == 0 ) {
-            return 1 ; 
-        }
+    long solve(int z, int o, int last) {
 
-        // early check by dp 
-        if(dp[zeroLeft][oneLeft][curr][count] != -1 ) return dp[zeroLeft][oneLeft][curr][count] ; 
-        int ways = 0 ; 
+        if (z == 0 && o == 0) return 1;
 
-        // for zero call and check 
-        if(zeroLeft > 0 ) {
+        if (dp[z][o][last] != -1) return dp[z][o][last];
 
-            // check curr was 0 then count + 1 
-            if(curr == 0 ) {
-                // check vaild limit 
-                if(count + 1 <= limit ) {
-                    ways = (ways +  find(zeroLeft - 1 , oneLeft , 0 , count+1 , limit )) % mod ; 
-                }
+        long ways = 0;
+
+        if (last == 0) { 
+            // next block must be 1s
+            for (int k = 1; k <= Math.min(limit, o); k++) {
+                ways = (ways + solve(z, o - k, 1)) % MOD;
             }
-            else {
-                // when zero first time came 
-                ways = (ways +  find(zeroLeft-1 , oneLeft , 0  , 1 , limit ) ) % mod  ;    
+        } 
+        else { 
+            // next block must be 0s
+            for (int k = 1; k <= Math.min(limit, z); k++) {
+                ways = (ways + solve(z - k, o, 0)) % MOD;
             }
         }
 
-        // for one call and check 
-
-        if(oneLeft > 0 ) {
-
-            // check curr was 1 then count + 1 
-            if(curr == 1 ) {
-                // check valid 
-                if(count + 1 <= limit ) {
-                    ways = (ways + find(zeroLeft , oneLeft-1 , 1 , count+1 , limit) ) % mod  ; 
-                }
-            }
-            else {
-                // one came first time 
-                ways = (ways  + find(zeroLeft , oneLeft-1 , 1 , 1 , limit) )%mod ; 
-            }
-        }
-
-        return dp[zeroLeft][oneLeft][curr][count] = ways ; 
+        return dp[z][o][last] = ways;
     }
-    public int numberOfStableArrays(int zero, int one, int limit) {
-        // dp 
-        dp = new int[zero+1][one+1][2][limit+1] ; 
 
-        //fill the dp 
-        for ( int i = 0 ; i <= zero ; i++ ) {
-            for ( int j = 0 ; j <= one ; j++ ) {
-                for ( int k = 0 ; k < 2 ; k++ ) {
-                    for ( int l = 0 ; l <= limit ; l++ ) {
-                        dp[i][j][k][l] = -1 ; 
-                    }
+    public int numberOfStableArrays(int zero, int one, int limit) {
+
+        this.limit = limit;
+
+        dp = new long[zero + 1][one + 1][2];
+
+        for (int i = 0; i <= zero; i++) {
+            for (int j = 0; j <= one; j++) {
+                for (int k = 0; k < 2; k++) {
+                    dp[i][j][k] = -1;
                 }
             }
         }
-        // way 
 
-        int ways = 0 ; 
+        long ans = 0;
 
-        // call for 0 
-        if(zero > 0 ) {
-            ways = (ways +  find(zero-1 , one , 0 , 1 , limit )) % mod ;
+        for (int k = 1; k <= Math.min(limit, zero); k++) {
+            ans = (ans + solve(zero - k, one, 0)) % MOD;
         }
 
-        // call for 1 
-
-        if(one > 0 ) {
-            ways = (ways +  find(zero , one - 1 , 1 , 1 , limit )) % mod  ; 
+        for (int k = 1; k <= Math.min(limit, one); k++) {
+            ans = (ans + solve(zero, one - k, 1)) % MOD;
         }
 
-        // return 
-        return ways ; 
+        return (int) ans;
     }
 }
