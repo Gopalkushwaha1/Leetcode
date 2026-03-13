@@ -1,43 +1,51 @@
 class Solution {
+    public boolean isPossible(long time , int height , int[] worker ) {
+        // now check 
+        for ( int i = 0 ; i < worker.length ; i++ ) {
+            long j = 1L ; 
+            long curr = 0 ; 
 
-    public boolean isPossible(long time, int height, int[] workerTimes) {
-
-        long totalHeight = 0;
-
-        for (int w : workerTimes) {
-
-            // k = (-1 + sqrt(1 + 8*time/w)) / 2
-            long k = (long)((Math.sqrt(1 + (8.0 * time) / w) - 1) / 2);
-
-            totalHeight += k;
-
-            if (totalHeight >= height) return true;
+            while ( height > 0 && curr + j * worker[i] <= time ) {
+                curr += j * worker[i] ; 
+                j++ ; 
+                height--  ; 
+            }
+            // ealry check 
+            if(height == 0 ) return true ; 
         }
-
-        return false;
+        return height == 0 ; 
     }
-
     public long minNumberOfSeconds(int mountainHeight, int[] workerTimes) {
+        // take min max 
+        long min = 1L ; 
+        long max = 0 ; 
 
-        long left = 1;
-        long maxWorker = 0;
+        long dummy = 1L ; 
 
-        for (int w : workerTimes) {
-            maxWorker = Math.max(maxWorker, w);
+        // find max 
+        for ( int ele : workerTimes ) {
+            dummy = Math.max(ele , dummy ) ; 
         }
 
-        long right = maxWorker * (long)mountainHeight * (mountainHeight + 1) / 2;
-
-        while (left < right) {
-
-            long mid = left + (right - left) / 2;
-
-            if (isPossible(mid, mountainHeight, workerTimes))
-                right = mid;
-            else
-                left = mid + 1;
+        // find range 
+        for ( int i = 1 ; i <= mountainHeight ; i++ ) {
+            max += dummy * i ; 
         }
 
-        return left;
+        // Apply binary search 
+
+        while ( min < max ) {
+            // find mid 
+
+            long mid = (min+max)/2 ; 
+            if(isPossible(mid , mountainHeight , workerTimes )) {
+                max = mid ; 
+            }
+            else {
+                min = mid + 1 ; 
+            }
+        }
+
+        return min ; 
     }
 }
