@@ -65,7 +65,7 @@ class Solution {
 
                 // now start make rhombus 1 ...... k -> Min ( row , col ) 
 
-                for ( int k = 1 ; k < Math.min(row , col ) ; k++ ) {
+                for ( int k = 1 ; k < (Math.min(row , col )/2)+1 ; k++ ) {
                     int ele = find(grid , i , j , k ) ; 
 
                     if(ele == -1  ) break ; 
