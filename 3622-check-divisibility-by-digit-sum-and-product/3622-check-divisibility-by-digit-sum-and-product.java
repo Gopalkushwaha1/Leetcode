@@ -17,8 +17,8 @@ class Solution {
         totalSum = sum + prod ; 
 
         // check the condition 
-        if( originalN % totalSum == 0 ) return true ; 
+        if( originalN % totalSum != 0 ) return false  ; 
 
-        return false ; 
+        return true ; 
     }
 }
