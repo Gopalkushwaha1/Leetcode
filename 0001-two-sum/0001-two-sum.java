@@ -1,15 +1,25 @@
 class Solution {
     public int[] twoSum(int[] nums, int target) {
-        HashMap<Integer,Integer> map  = new HashMap<>() ; 
-        map.put(nums[0] , 0) ; 
+        // Create the ans 
+        int[] ans = new int[2] ; 
+        int n = nums.length ; 
+        // fix first value -> idx 
+        for ( int i = 0 ; i < n ; i++ ) {
+            int ele = nums[i] ; 
 
-        for ( int i = 1 ; i < nums.length ; i++ ) {
-            if(map.containsKey(target-nums[i]) ) {
-                return new int[]{map.get(target-nums[i]) , i } ; 
+            for ( int j = i + 1 ; j < n ; j++ ) {
+                // Check the condition
+                if ( ele + nums[j] == target ) {
+                    int index1 = i ; 
+                    int index2 = j ; 
+
+                    ans[0] = index1 ; 
+                    ans[1] = index2 ; 
+                    break ; 
+                }
             }
-            map.put(nums[i] , i ) ; 
-        }
 
-        return new int[]{-1,-1} ; 
+        }
+        return ans ; 
     }
 }
