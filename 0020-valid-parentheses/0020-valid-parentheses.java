@@ -3,6 +3,8 @@ class Solution {
         // Create stack to track valid parentheses 
         Stack<Character> st = new Stack() ; 
 
+        if ( st.size() % 2 != 0 ) return false ; 
+
         // travel each parentheses
         for ( char ch : s.toCharArray() ) {
             // if opening parentheses then push to stack 
