@@ -1,18 +1,49 @@
 class Solution {
     public boolean isValid(String s) {
-        Stack<Character> st = new Stack<>() ; 
-        int i = 0 ; 
+        // Create stack to track valid parentheses 
+        Stack<Character> st = new Stack() ; 
 
-        while ( i < s.length() ) {
-            char ch = s.charAt(i) ; 
-
-            if(ch=='(' || ch == '{' || ch == '[') st.push(ch) ; 
-            else if(st.isEmpty() ) return false ;
-            else if ( st.peek() == '(' && ch == ')' || st.peek() == '{' && ch == '}' || st.peek() == '[' && ch == ']') {
-                st.pop() ; 
+        // travel each parentheses
+        for ( char ch : s.toCharArray() ) {
+            // if opening parentheses then push to stack 
+            if ( ch == '(' || ch == '{' || ch == '[') {
+                st.push(ch) ; 
             }
-            i++ ; 
+            else if ( ch == ')') {
+                if (st.isEmpty()) return false  ;
+                char prev = st.peek() ; 
+                if( prev == '(') {
+                    st.pop() ; 
+                    continue ; 
+                }
+                else {
+                    return false ; 
+                }
+            }
+            else if ( ch == '}') {
+                if (st.isEmpty()) return false  ;
+                char prev = st.peek() ; 
+                if( prev == '{') {
+                    st.pop() ; 
+                    continue ; 
+                }
+                else {
+                    return false ; 
+                }
+            }
+            else if ( ch == ']') {
+                if (st.isEmpty()) return false  ;
+                char prev = st.peek() ; 
+                if( prev == '[') {
+                    st.pop() ; 
+                    continue ; 
+                }
+                else {
+                    return false ; 
+                }
+            }
         }
+
         return st.isEmpty() ; 
     }
 }
